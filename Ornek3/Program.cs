@@ -14,6 +14,6 @@ internal class Program
         WriteLine($"{Topla(178, 99)}");
         WriteLine($"{Topla(225d, 79d)}");
         ReadLine();
-        Console.WriteLine("Hello, World!");
+        WriteLine("Hello, World!");
     }
 }
