@@ -1,7 +1,6 @@
 ﻿namespace ObjetOrientedSample;
 using static Console;
 using static DateTime;
-
 public interface IKisi
 {
     public string Ad { get; set; }
@@ -10,7 +9,12 @@ public interface IKisi
     public int Yas(DateTime DogTar);
     public float VucutKitleEndeksi(float boy, float kilo);
 }
-public abstract class Kisi: IKisi
+public interface IPersonel : IKisi
+{
+    public DateTime IseGirisTarihi { get; set; }
+    public long SGK_No { get; set; }
+}
+public abstract class Kisi : IKisi
 {
     public string Ad { get; set; }
     public string Soyad { get; set; }
@@ -18,21 +22,16 @@ public abstract class Kisi: IKisi
     private float Boy;
     private float Kilo;
     private DateTime DogTar;
-    protected Kisi(string ad, string soyad, DateTime dogTar) 
+    protected Kisi(string ad, string soyad, DateTime dogTar)
                         => (Ad, Soyad, DogTar) = (ad, soyad, dogTar);
     protected Kisi() { }
     public abstract int Yas(DateTime DogTar);
-    public float VucutKitleEndeksi(float boy, float kilo) 
+    public float VucutKitleEndeksi(float boy, float kilo)
                                                     => kilo / (boy * boy);
-    public decimal VucutKitleEndeksi(decimal boy, decimal kilo) 
+    public decimal VucutKitleEndeksi(decimal boy, decimal kilo)
                                                     => kilo / (boy * boy);
-    public double VucutKitleEndeksi(double boy, double kilo) 
+    public double VucutKitleEndeksi(double boy, double kilo)
                                                     => kilo / (boy * boy);
-}
-public interface IPersonel: IKisi
-{
-    public DateTime IseGirisTarihi { get; set; }
-    public long SGK_No { get; set; }
 }
 public class Personel : Kisi, IPersonel
 {
