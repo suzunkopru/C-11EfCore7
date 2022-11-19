@@ -7,7 +7,7 @@ public interface IKisi
     public string Soyad { get; set; }
     public DateTime DogTar { get; set; }
     public int Yas(DateTime dogTar);
-    public float VucutKitleEndeksi(float boy, float kilo);
+    public float KitleEndeks(float boy, float kilo);
 }
 public interface IPersonel
 {
@@ -28,7 +28,7 @@ public abstract class Kisi : IKisi
                                 => (Boy, Kilo) = (boy, kilo);
     protected Kisi() { }
     public abstract int Yas(DateTime DogTar);
-    public float VucutKitleEndeksi(float boy, float kilo)
+    public float KitleEndeks(float boy, float kilo)
                                                 => kilo / (boy * boy);
     public decimal VucutKitleEndeksi(decimal boy, decimal kilo)
                                                  => kilo / (boy * boy);
@@ -60,6 +60,7 @@ class Program
             dogTar: new DateTime(1976, 11, 17),
             iseGiris: new DateTime(1995, 05, 01),
             sgkNo: 3403199606293);
+        Personel personel2 = new Personel(1.78f, 92.5f);
         WriteLine($"Ad: {personel.Ad}");
         WriteLine($"Soyad: {personel.Soyad}");
         Write("Doğum Tarihi: ");
@@ -68,13 +69,13 @@ class Program
         WriteLine(personel.IseGirisTarihi.ToShortDateString());
         WriteLine($"SGK No: {personel.SGK_No}");
         WriteLine($"Yaşı: {personel.Yas(personel.DogTar)}");
-        Write($"{nameof(personel.VucutKitleEndeksi)}");
+        Write($"{nameof(personel.KitleEndeks)}");
         Write($"{typeof(float)}:");
-        WriteLine($"{personel.VucutKitleEndeksi(1.78f, 99.5f)}");
-        Write($"{nameof(personel.VucutKitleEndeksi)}");
+        WriteLine($"{personel.KitleEndeks(1.78f, 99.5f)}");
+        Write($"{nameof(personel.KitleEndeks)}");
         Write($"{typeof(decimal)}:");
         WriteLine($"{personel.VucutKitleEndeksi(1.78m, 99.5m)}");
-        Write($"{nameof(personel.VucutKitleEndeksi)}");
+        Write($"{nameof(personel.KitleEndeks)}");
         Write($"{typeof(double)}:");
         WriteLine($"{personel.VucutKitleEndeksi(1.78d, 99.5d)}");
         ReadLine();
