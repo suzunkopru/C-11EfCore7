@@ -27,7 +27,6 @@ public abstract class Kisi : IKisi
             => (Ad, Soyad, DogTar) = (ad, soyad, dogTar);
     public Kisi(float boy, float kilo)
                                 => (Boy, Kilo) = (boy, kilo);
-    protected Kisi() { }
     public abstract int Yas(DateTime DogTar);
     public float KitleEndeks(float boy, float kilo)
                                                 => kilo / (boy * boy);
