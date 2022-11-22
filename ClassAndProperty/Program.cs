@@ -1,10 +1,12 @@
-﻿IMotor motor = new Motor();
+﻿using System.Text.Json;
+
+IMotor motor = new Motor();
 Write("Özelliklere henüz değer atanmadığı için varsayılan");
 WriteLine(" değerler görüntülenir.");
 WriteLine("Renk Özelliği: " + motor.Renk);
 WriteLine("Vites Sayısı Özelliği: " + motor.VitesSayisi);
 WriteLine("Yakıt Cinsi Özelliği: " + motor.YakitCinsi);
-Write("Özelliklere değer atandıktan sonra:");
+Write("Özelliklere değer atandıktan sonra: ");
 motor.Renk = Color.DarkCyan;
 WriteLine("Renk Özelliği: " + motor.Renk);
 motor.VitesSayisi = 6;

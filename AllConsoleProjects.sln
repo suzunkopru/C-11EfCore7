@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritImplement", "Inherit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalUsing", "GlobalUsing\GlobalUsing.csproj", "{A16B6220-816E-46A5-9160-9598303A8E82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAndProperty", "ClassAndProperty\ClassAndProperty.csproj", "{605F92BE-759E-4091-A3E8-E616EE189312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassAndProperty", "ClassAndProperty\ClassAndProperty.csproj", "{605F92BE-759E-4091-A3E8-E616EE189312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bak", "Bak\Bak.csproj", "{A783C172-0AA9-4D27-B238-558A56B070F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{605F92BE-759E-4091-A3E8-E616EE189312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605F92BE-759E-4091-A3E8-E616EE189312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{605F92BE-759E-4091-A3E8-E616EE189312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A783C172-0AA9-4D27-B238-558A56B070F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A783C172-0AA9-4D27-B238-558A56B070F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A783C172-0AA9-4D27-B238-558A56B070F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A783C172-0AA9-4D27-B238-558A56B070F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
