@@ -10,7 +10,7 @@ foreach (var str in yillar)
 foreach (var str in sirali)
 {
     Console.WriteLine(str);
-}
+} 
 #endregion .net 7 simplified ordering with
 
 

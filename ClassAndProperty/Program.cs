@@ -1,6 +1,4 @@
-﻿using System.Text.Json;
-
-IMotor motor = new Motor();
+﻿IMotor motor = new Motor();
 Write("Özelliklere henüz değer atanmadığı için varsayılan");
 WriteLine(" değerler görüntülenir.");
 WriteLine("Renk Özelliği: " + motor.Renk);

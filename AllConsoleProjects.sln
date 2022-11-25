@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalUsing", "GlobalUsing\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassAndProperty", "ClassAndProperty\ClassAndProperty.csproj", "{605F92BE-759E-4091-A3E8-E616EE189312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bak", "Bak\Bak.csproj", "{A783C172-0AA9-4D27-B238-558A56B070F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bak", "Bak\Bak.csproj", "{A783C172-0AA9-4D27-B238-558A56B070F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
