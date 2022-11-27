@@ -7,7 +7,7 @@ int Gelirler(ref int Gelir, params int[] tutar)
 }
 int Giderler(ref int Gider, params int[] tutar)
 {
-    int tutarSum = -1 * tutar.Sum(x => Math.Abs(x)) ;
+    int tutarSum = -1 * tutar.Sum(x => Math.Abs(x));
     Gider += tutarSum;
     return tutarSum;
 }
