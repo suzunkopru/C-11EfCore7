@@ -41,17 +41,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsOutModifier", "Metho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "refParameterModifier", "refParameterModifier\refParameterModifier.csproj", "{94D22C37-3CE7-410B-8FD7-60E32DCCC132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleSturct", "TupleSturct\TupleSturct.csproj", "{C5F002BC-6FDB-4B45-AF8F-82E5F4DE527F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleSturct", "TupleSturct\TupleSturct.csproj", "{C5F002BC-6FDB-4B45-AF8F-82E5F4DE527F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticKeyword", "StaticKeyword\StaticKeyword.csproj", "{7F7228A2-702A-41B8-AB6F-F2A08C5CECC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticKeyword", "StaticKeyword\StaticKeyword.csproj", "{7F7228A2-702A-41B8-AB6F-F2A08C5CECC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateOnlySample", "DateOnlySample\DateOnlySample.csproj", "{AD04136E-C030-4BCF-8883-6C77CC342DFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateOnlySample", "DateOnlySample\DateOnlySample.csproj", "{AD04136E-C030-4BCF-8883-6C77CC342DFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericPtr", "NumericPtr\NumericPtr.csproj", "{DAA8E5B6-18CB-4D1A-A8DD-EB770A771B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericPtr", "NumericPtr\NumericPtr.csproj", "{DAA8E5B6-18CB-4D1A-A8DD-EB770A771B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructSample", "StructSample\StructSample.csproj", "{B213B54E-8F36-4E29-BF07-5CEDDCC81739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructSample", "StructSample\StructSample.csproj", "{B213B54E-8F36-4E29-BF07-5CEDDCC81739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordSample", "RecordSample\RecordSample.csproj", "{D523A218-80AC-462D-A5BB-D0963CFE7036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordSample", "RecordSample\RecordSample.csproj", "{D523A218-80AC-462D-A5BB-D0963CFE7036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemberAccessOperator", "MemberAccessOperator\MemberAccessOperator.csproj", "{28B97084-2687-41D0-8F6F-FA9A553B2980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericList_T", "GenericList_T\GenericList_T.csproj", "{98F8C964-7299-4509-B7E8-6C64F49E389F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibFuncitons", "LibFuncitons\LibFuncitons.csproj", "{7E12BD36-5E29-4176-914D-3454B936966B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +165,18 @@ Global
 		{D523A218-80AC-462D-A5BB-D0963CFE7036}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D523A218-80AC-462D-A5BB-D0963CFE7036}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D523A218-80AC-462D-A5BB-D0963CFE7036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B97084-2687-41D0-8F6F-FA9A553B2980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B97084-2687-41D0-8F6F-FA9A553B2980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B97084-2687-41D0-8F6F-FA9A553B2980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B97084-2687-41D0-8F6F-FA9A553B2980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F8C964-7299-4509-B7E8-6C64F49E389F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F8C964-7299-4509-B7E8-6C64F49E389F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F8C964-7299-4509-B7E8-6C64F49E389F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F8C964-7299-4509-B7E8-6C64F49E389F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E12BD36-5E29-4176-914D-3454B936966B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E12BD36-5E29-4176-914D-3454B936966B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E12BD36-5E29-4176-914D-3454B936966B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E12BD36-5E29-4176-914D-3454B936966B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
