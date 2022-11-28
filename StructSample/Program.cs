@@ -5,7 +5,7 @@ AracBilgi aracBilgi = new(06, "Ankara", 2015, AracTipi.Binek);
 WriteLine($"İl: {aracBilgi.ilAdi} Plaka: {aracBilgi.Plaka} ");
 WriteLine(aracBilgi.ToString());
 // C# 10.0 ile gelen with desteği.
-AracBilgi kopyalaAracBilgi 
+AracBilgi kopyalaAracBilgi
             = aracBilgi with { AracinTipi = AracTipi.Kamyon };
 ReadKey();
 public struct AracBilgi
