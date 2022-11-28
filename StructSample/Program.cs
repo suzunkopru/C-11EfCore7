@@ -1,23 +1,31 @@
 ﻿using static System.Console;
 using static System.DateTime;
 
-AracBilgi arac1 = new("Ankara", 2015);
-AracBilgi arac2 = arac1 with { modelYili = 2021 };
+AracBilgi aracBilgi = new(06, "Ankara", 2015, AracTipi.Binek);
+WriteLine($"İl: {aracBilgi.ilAdi} Plaka: {aracBilgi.Plaka} ");
+WriteLine(aracBilgi.ToString());
 // C# 10.0 ile gelen with desteği.
-WriteLine(arac1.ToString());
-WriteLine(arac2.ToString());
+AracBilgi kopyalaAracBilgi 
+            = aracBilgi with { AracinTipi = AracTipi.Kamyon };
 ReadKey();
-
 public struct AracBilgi
 {
-    public sbyte Plaka;
-    public string ilAdi;
-    public int modelYili;
-    public AracBilgi(string IlinAdi, int kacModel)
-        => (ilAdi, modelYili) = (IlinAdi, kacModel);
-    //Plaka yok. C#11 öncesi auto default field hatası verir
-    public readonly override string ToString()
-        => ($"İl Adı : {ilAdi} Yaşı: {yas(modelYili)}");
-    public readonly int yas(int modelYili)
-        => Today.Year - modelYili;
+    public AracTipi AracinTipi { get; init; }
+    public AracBilgi() { }
+    public AracBilgi(sbyte plaka, string IlinAdi,
+                int kacModel, AracTipi tip)
+                => (Plaka, ilAdi, modelYili, AracinTipi)
+                = (plaka, IlinAdi, kacModel, tip);
+    public sbyte Plaka { get; init; }
+    public string ilAdi { get; set; }
+    public int modelYili { get; set; }
+    public override string ToString()
+        => $"Plaka : {Plaka} -> İl Adı : {ilAdi} " +
+           $"-> Araç Yaşı: {Yas(modelYili)}" +
+           $"-> Araç Tipi: {AracinTipi}";
+    public int Yas(int modelYili) => Today.Year - modelYili;
+}
+public enum AracTipi
+{
+    Binek, Kamyon, Kamyonet
 }
