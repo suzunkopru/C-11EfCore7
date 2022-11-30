@@ -5,9 +5,9 @@ int? integer = null;
 WriteLine(integer ?? int.MaxValue);
 List<int[]>? integrals = new List<int[]>
      {
-        new [] { 200, 320, 300, 100, 800 },
-        new [] { 600, 250, 325, 115, 875 },
-        null
+        new [] { 200, 320, 300, 100, 800 },     //0. int listesi
+        new [] { 600, 250, 325, 115, 875 },     //1. int listesi
+        null                                                     //2. int listesi
     };
 WriteLine($"integrals 0. Satır 0. Sütun: {integrals[0][0]}");
 WriteLine($"integrals 0. Satır 1. Sütun: {integrals[0][1]}");
@@ -26,5 +26,5 @@ WriteLine(intsnewInts.Where(x => x > 20).Sum());
 Ciz('-', 32);
 ReadKey();
 static int? Topla(int[]? sayilar) => sayilar?.Sum();
-static int Toplama(List<int[]>? ints, int start)
-                        => ints?[start]?.Sum() ?? 9999;
+static int? Toplama(List<int[]>? ints, int start)
+                        => ints?[start].Sum() ?? 9999;
