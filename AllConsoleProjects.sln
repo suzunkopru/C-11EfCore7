@@ -59,7 +59,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericList_T", "GenericLis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibFuncitons", "LibFuncitons\LibFuncitons.csproj", "{7E12BD36-5E29-4176-914D-3454B936966B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullConditionalSample", "NullConditionalSample\NullConditionalSample.csproj", "{F4179BB6-8877-4677-9574-855447ADF5F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullConditionalSample", "NullConditionalSample\NullConditionalSample.csproj", "{F4179BB6-8877-4677-9574-855447ADF5F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternMatchSpan", "PatternMatchSpan\PatternMatchSpan.csproj", "{1F0DA9CD-ADDF-460E-AF11-45206E0707B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternMatchingEnhancements", "PatternMatchingEnhancements\PatternMatchingEnhancements.csproj", "{772128A0-EC6C-4C70-AAD6-297FAF144BB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternCombinators", "PatternCombinators\PatternCombinators.csproj", "{B36C9653-8823-4109-A95D-3BA923A27655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeTestingOperators", "TypeTestingOperators\TypeTestingOperators.csproj", "{C3860CE9-C802-41E6-8E8B-1C286F50AA42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +191,22 @@ Global
 		{F4179BB6-8877-4677-9574-855447ADF5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4179BB6-8877-4677-9574-855447ADF5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4179BB6-8877-4677-9574-855447ADF5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0DA9CD-ADDF-460E-AF11-45206E0707B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0DA9CD-ADDF-460E-AF11-45206E0707B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0DA9CD-ADDF-460E-AF11-45206E0707B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0DA9CD-ADDF-460E-AF11-45206E0707B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772128A0-EC6C-4C70-AAD6-297FAF144BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772128A0-EC6C-4C70-AAD6-297FAF144BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772128A0-EC6C-4C70-AAD6-297FAF144BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772128A0-EC6C-4C70-AAD6-297FAF144BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36C9653-8823-4109-A95D-3BA923A27655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36C9653-8823-4109-A95D-3BA923A27655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36C9653-8823-4109-A95D-3BA923A27655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36C9653-8823-4109-A95D-3BA923A27655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3860CE9-C802-41E6-8E8B-1C286F50AA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3860CE9-C802-41E6-8E8B-1C286F50AA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3860CE9-C802-41E6-8E8B-1C286F50AA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3860CE9-C802-41E6-8E8B-1C286F50AA42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
