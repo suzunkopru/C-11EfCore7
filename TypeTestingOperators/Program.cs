@@ -1,9 +1,9 @@
 ﻿using static System.Console;
-var isim = "Süleyman UZUNKÖPRÜ";
+dynamic isim = "Süleyman UZUNKÖPRÜ";
 WriteLine($"isim değişkeni string midir? {isim is string}");
-WriteLine($"isim.GetType(): {isim.GetType()}");
+WriteLine($"isim.GetType(): {isim.GetType().Name}");
 char[] harf = (isim as string).ToCharArray();
-WriteLine($"harf.GetType(): {harf.GetType()}");
+WriteLine($"harf.GetType(): {harf.GetType().Name}");
 WriteLine($"harf değişkeninin 0. Karakteri: {harf[0]}");
 WriteLine
     ($"harf değişkeninin 8 adet karakterinin sonuncusu: {harf[..8][^1]}");
@@ -20,6 +20,6 @@ miniClass.Tip<SortedList<int, string>>();
 ReadKey();
 public class MiniClass
 {
-    public void Tip<T>() => WriteLine($"typeof(T):{typeof(T).Name}");
+    public void Tip<T>()
+        => WriteLine($"typeof(T):{typeof(T).Name}");
 }
-

@@ -67,7 +67,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternMatchingEnhancements
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternCombinators", "PatternCombinators\PatternCombinators.csproj", "{B36C9653-8823-4109-A95D-3BA923A27655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeTestingOperators", "TypeTestingOperators\TypeTestingOperators.csproj", "{C3860CE9-C802-41E6-8E8B-1C286F50AA42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeTestingOperators", "TypeTestingOperators\TypeTestingOperators.csproj", "{C3860CE9-C802-41E6-8E8B-1C286F50AA42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopRent", "ShopRent\ShopRent.csproj", "{7A748607-6165-43F2-B837-25976F1CEEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernaryRef", "TernaryRef\TernaryRef.csproj", "{956BBE70-DB70-406C-9979-7DB29F83586D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +211,14 @@ Global
 		{C3860CE9-C802-41E6-8E8B-1C286F50AA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3860CE9-C802-41E6-8E8B-1C286F50AA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3860CE9-C802-41E6-8E8B-1C286F50AA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A748607-6165-43F2-B837-25976F1CEEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A748607-6165-43F2-B837-25976F1CEEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A748607-6165-43F2-B837-25976F1CEEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A748607-6165-43F2-B837-25976F1CEEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956BBE70-DB70-406C-9979-7DB29F83586D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956BBE70-DB70-406C-9979-7DB29F83586D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956BBE70-DB70-406C-9979-7DB29F83586D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956BBE70-DB70-406C-9979-7DB29F83586D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
