@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 Queue<int> sira = new ();
-sira.Enqueue(1);
+sira.Enqueue(1); 
 sira.Enqueue(2);
 sira.Enqueue(3);
 sira.Enqueue(3);
@@ -50,7 +50,7 @@ SortedDictionary<int, string> siraliSozluk = new();
 siraliSozluk.Add(3, "C");
 siraliSozluk.Add(2, "B");
 siraliSozluk.Add(1, "A");
-WriteLine("SortedList<T>");
+WriteLine("SortedDictionary<T>");
 WriteLine(string.Join("\n", siraliSozluk));
 
 Dictionary<int, string> sozluk = new();
@@ -59,7 +59,5 @@ sozluk.Add(2, "B");
 sozluk.Add(1, "A");
 WriteLine("Dictionary<T>");
 WriteLine(string.Join("\n", sozluk));
-
-
 ReadLine();
 
