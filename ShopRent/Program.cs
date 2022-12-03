@@ -24,4 +24,5 @@ gelir += indeks("Oyuncak") * 5;
 gelir += indeks("Kırtasiye") * 15;
 gelir += indeks("Bilgisayar") * 7;
 WriteLine($"Kira Geliri Toplamı {gelir:0,00}");
+WriteLine(nameof(ShopRent));
 ReadLine();
