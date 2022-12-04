@@ -1,13 +1,13 @@
 ﻿using static System.Console;
-Queue<int> sira = new ();
-sira.Enqueue(1); 
+Queue<int> sira = new();
+sira.Enqueue(1);
 sira.Enqueue(2);
 sira.Enqueue(3);
 sira.Enqueue(3);
 WriteLine("Queue<T>");
 WriteLine(string.Join("\n", sira));
 
-Stack<int> yigin = new ();
+Stack<int> yigin = new();
 yigin.Push(1);
 yigin.Push(2);
 yigin.Push(3);

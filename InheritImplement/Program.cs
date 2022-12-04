@@ -24,7 +24,7 @@ ReadLine();
 public interface IPixel
 {
     public Size Resolution { get; set; }
-    public int Age(DateTime createDate) 
+    public int Age(DateTime createDate)
                         => DateTime.Today.Year - createDate.Year;
     public void PixelWrite(Size resolution);
     public void AgeWrite(DateTime crDate) => WriteLine(Age(crDate));

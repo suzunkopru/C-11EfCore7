@@ -1,5 +1,5 @@
-﻿using static System.Console;
-using System.Drawing;
+﻿using System.Drawing;
+using static System.Console;
 static int AracYasTip(dynamic arac, out Type type, int model)
 {
     type = arac.GetType();

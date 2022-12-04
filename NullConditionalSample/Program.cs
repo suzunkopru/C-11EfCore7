@@ -1,5 +1,5 @@
-﻿using static System.Console;
-using static LibFuncitons.Voids;
+﻿using static LibFuncitons.Voids;
+using static System.Console;
 
 int? integer = null;
 WriteLine(integer ?? int.MaxValue);

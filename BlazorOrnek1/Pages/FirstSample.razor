@@ -1,0 +1,36 @@
+﻿@page "/KisiPage"
+<h1>Kişi</h1>
+@if (listKisi == null)
+{
+    <p>Yükleniyor...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>@nameof(Kisi.Adi)</th>
+            <th>@nameof(Kisi.Soyadi)</th>
+            <th>@nameof(Kisi.Cinsiyeti)</th>
+            <th>@nameof(Kisi.DogumYili)</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in listKisi)
+        {
+            <tr>
+                <td>@item.Adi</td>
+                <td>@item.Soyadi</td>
+                <td>@item.Cinsiyeti</td>
+                <td>@item.DogumYili</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@code {
+    Kisi kisi = new();
+    List<Kisi> listKisi;
+    protected override async Task OnInitializedAsync() 
+        => listKisi = kisi.KisilerListesi();
+}

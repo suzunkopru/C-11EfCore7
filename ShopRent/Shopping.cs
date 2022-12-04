@@ -13,6 +13,6 @@ public class Shopping
         {24_000, "Kırtasiye"},
         {75_000, "Bilgisayar"},
      };
-    public string ShoppingType(int i) 
+    public string ShoppingType(int i)
                         => DukkanKiralari.Values[i];
 }

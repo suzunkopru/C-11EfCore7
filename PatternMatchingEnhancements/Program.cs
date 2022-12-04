@@ -10,4 +10,4 @@ var i = 250;
 WriteLine($"i={i} bir int ise y ataması yap, Y bas: {i is int y} => {y}");
 ReadKey();
 class Bisiklet { }
-class Motor{ }
+class Motor { }

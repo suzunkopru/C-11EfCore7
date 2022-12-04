@@ -19,7 +19,7 @@ WriteLine("Meyve isterseniz büyük M harfine basınız.");
 WriteLine("M dışındaki bir tuşa basarsanız, tatlı verilir.");
 ConsoleKeyInfo tus = ReadKey(true);
 WriteLine($"{tus.Key} tuşuna bastınız.");
-Dictionary<int, string> istenen = 
+Dictionary<int, string> istenen =
     tus.Key == ConsoleKey.M ? ref meyve : ref tatli;
 WriteLine
     ($"{string.Join("\n", istenen)} istemiş oldunuz.");

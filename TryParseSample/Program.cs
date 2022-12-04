@@ -8,7 +8,7 @@ WriteLine($"Sonuç: {(dene ? tryDecimal : "Başarısız"):0,0.00}");
 dene = int.TryParse(sayi, out int tryInt);
 WriteLine($"Sonuç: {(dene ? tryInt : "Başarısız"):0,0.00}");
 WriteLine($"{ToDecimal(sayi):0,0.00}");
-sayi = sayi.Split(',').First().Replace(".","");
+sayi = sayi.Split(',').First().Replace(".", "");
 WriteLine($"{ToInt32(sayi):0,0}");
 ReadKey();
 

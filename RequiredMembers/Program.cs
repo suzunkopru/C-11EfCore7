@@ -2,7 +2,7 @@
 using static System.DateTime;
 
 int Yil = Today.Year;
-var kisi = new Kisi { Ad = "Süleyman",  Soyad = "UZUNKÖPRÜ",  DogumTarihi = 1976 };
+var kisi = new Kisi { Ad = "Süleyman", Soyad = "UZUNKÖPRÜ", DogumTarihi = 1976 };
 WriteLine($"Adı: {kisi.Ad}, Soyadı: {kisi.Soyad}, Yaşı: {Yil - kisi.DogumTarihi}");
 ReadLine();
 public class Kisi

@@ -6,9 +6,9 @@ class Program
     static void Main(string[] args)
     {
         string ayracNedir = SistemNumerikAyraci();
-        AyracOku(ayracNedir); 
+        AyracOku(ayracNedir);
         ayracNedir = SistemNumerikAyraci(1055);
-        AyracOku(ayracNedir); 
+        AyracOku(ayracNedir);
         bool onlukBinlik = false;
         ayracNedir = SistemNumerikAyraci(onlukBinlik);
         AyracOku(onlukBinlik, ayracNedir);
@@ -33,7 +33,7 @@ class Program
     /// istenen ülke kodunu alır.</param>
     /// <returns>Dönüş değeri string tipindedir. 
     /// Nokta veya virgül döner</returns>
-    static string SistemNumerikAyraci(int Kod=1055)
+    static string SistemNumerikAyraci(int Kod = 1055)
     {
         CultureInfo cultureInfo = new(Kod);
         return cultureInfo.NumberFormat.NumberDecimalSeparator;
@@ -70,14 +70,14 @@ class Program
     {
         string oku = "Ondalık Ayraç : ";
         oku += CultureInfo.CurrentCulture.NumberFormat
-            .NumberDecimalSeparator == "," 
+            .NumberDecimalSeparator == ","
                     ? "Virgül (,)" : "Nokta (.)";
         Console.WriteLine(oku);
     }
     static void AyracOku(string OndalikAyrac)
     {
         string oku = "Ondalık Ayraç : ";
-        oku += OndalikAyrac == "," 
+        oku += OndalikAyrac == ","
                     ? "Virgül (,)" : "Nokta (.)";
         Console.WriteLine(oku);
     }
