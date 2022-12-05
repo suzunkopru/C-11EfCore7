@@ -29,12 +29,21 @@ public interface IShape
     public nint Alan { get; }
     string AlanHesabi(dynamic shape) => shape switch
     {
-        Kare k when k.Alan == 0 =>
+        Kare { Alan: 0 } k =>
+            $"{shape.GetType().Name} alanı " +
+            $"{k.Kenar * k.Kenar:0,00}",
+        Dortgen { Alan: 0 } d =>
+            $"{shape.GetType().Name} alanı " +
+            $"{d.Uzunluk * d.Yükseklik:0,00}",
+        _ => throw new Exception($"Alan hesaplanamadı.")
+    };
+}
+
+/*      Kare k when k.Alan == 0 =>
             $"{shape.GetType().Name} alanı " +
             $"{k.Kenar * k.Kenar:0,00}",
         Dortgen d when d.Alan == 0 =>
             $"{shape.GetType().Name} alanı " +
             $"{d.Uzunluk * d.Yükseklik:0,00}",
         _ => throw new Exception($"Alan hesaplanamadı.")
-    };
-}
+ */
