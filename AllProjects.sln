@@ -91,7 +91,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "DoWhile\Loops.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileEngAlfabe", "WhileEngAlfabe\WhileEngAlfabe.csproj", "{1A3CC0B5-3975-4A5F-B1BA-E0402A6DF06E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarpimTablosu", "CarpimTablosu\CarpimTablosu.csproj", "{21BB4F6F-AFA5-44E5-AF72-AF5BE07F7D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarpimTablosu", "CarpimTablosu\CarpimTablosu.csproj", "{21BB4F6F-AFA5-44E5-AF72-AF5BE07F7D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{1856C102-6313-4027-97DF-5D13D2CFD415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "returnStatement", "returnStatement\returnStatement.csproj", "{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +283,14 @@ Global
 		{21BB4F6F-AFA5-44E5-AF72-AF5BE07F7D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21BB4F6F-AFA5-44E5-AF72-AF5BE07F7D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21BB4F6F-AFA5-44E5-AF72-AF5BE07F7D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1856C102-6313-4027-97DF-5D13D2CFD415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1856C102-6313-4027-97DF-5D13D2CFD415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1856C102-6313-4027-97DF-5D13D2CFD415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1856C102-6313-4027-97DF-5D13D2CFD415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
