@@ -66,12 +66,12 @@ public partial class HesapMakinesi : Form
     {
         lstSayilar.BackColor = Color.Empty;
         Random random = new Random();
-        string rasgele = random.Next().
+        string rastgele = random.Next().
             ToString($"0{ondalik}0");
         bool varmi = lstSayilar.Items
             .IndexOf(txtSayi.Text) == -1;
         if (txtSayi.Text == string.Empty || varmi == false)
-                                txtSayi.Text = rasgele;
+                                txtSayi.Text = rastgele;
         ErrorProvider hataIkonu = new();
         hataIkonu.Icon = SystemIcons.Warning;
         int sayi = 1_000_000_000;
