@@ -93,9 +93,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileEngAlfabe", "WhileEngA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarpimTablosu", "CarpimTablosu\CarpimTablosu.csproj", "{21BB4F6F-AFA5-44E5-AF72-AF5BE07F7D65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{1856C102-6313-4027-97DF-5D13D2CFD415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{1856C102-6313-4027-97DF-5D13D2CFD415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "returnStatement", "returnStatement\returnStatement.csproj", "{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "returnStatement", "returnStatement\returnStatement.csproj", "{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HesapMakinesiTryCatchFinally", "HesapMakinesiTryCatchFinally\HesapMakinesiTryCatchFinally.csproj", "{C257B0D6-C9F2-4016-9098-55A78229ADCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckedUnchecked", "CheckedUnchecked\CheckedUnchecked.csproj", "{3018F10A-E3DC-411E-A654-5D8FA0940673}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +295,14 @@ Global
 		{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28A63DBB-2F94-4D84-82EC-8BDD90A273FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C257B0D6-C9F2-4016-9098-55A78229ADCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C257B0D6-C9F2-4016-9098-55A78229ADCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C257B0D6-C9F2-4016-9098-55A78229ADCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C257B0D6-C9F2-4016-9098-55A78229ADCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3018F10A-E3DC-411E-A654-5D8FA0940673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3018F10A-E3DC-411E-A654-5D8FA0940673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3018F10A-E3DC-411E-A654-5D8FA0940673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3018F10A-E3DC-411E-A654-5D8FA0940673}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
