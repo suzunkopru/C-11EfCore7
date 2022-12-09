@@ -103,9 +103,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckedUnchecked", "Checked
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuntimeControlsAddAndInheritance", "RuntimeControlsAddAndInheritance\RuntimeControlsAddAndInheritance.csproj", "{836C1726-39BE-4F8B-A01C-F62FA9897BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NufusBilgileri", "NufusBilgileri\NufusBilgileri.csproj", "{6EE63D1F-EE5D-4CA6-8ED4-9C7F8F84EE6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NufusBilgileri", "NufusBilgileri\NufusBilgileri.csproj", "{6EE63D1F-EE5D-4CA6-8ED4-9C7F8F84EE6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsDialogsComponents", "ControlsDialogsComponents\ControlsDialogsComponents.csproj", "{9A6FF7B2-7895-44B4-9F46-B33FF56D4F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlsDialogsComponents", "ControlsDialogsComponents\ControlsDialogsComponents.csproj", "{9A6FF7B2-7895-44B4-9F46-B33FF56D4F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWordImageMenuTabControlEtc", "FileWordImageMenuTabControlEtc\FileWordImageMenuTabControlEtc.csproj", "{50B0520C-1973-44A5-9DD6-E467DB1E4CDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{9A6FF7B2-7895-44B4-9F46-B33FF56D4F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6FF7B2-7895-44B4-9F46-B33FF56D4F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A6FF7B2-7895-44B4-9F46-B33FF56D4F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B0520C-1973-44A5-9DD6-E467DB1E4CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B0520C-1973-44A5-9DD6-E467DB1E4CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B0520C-1973-44A5-9DD6-E467DB1E4CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B0520C-1973-44A5-9DD6-E467DB1E4CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

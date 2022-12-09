@@ -114,7 +114,7 @@ public partial class VtSample : Form
         splitButtonPrint.Click += SplitButtonPrint_Click;
         _statusStrip.Items.Add(splitButtonPrint);
         Controls.Add(_statusStrip);
-        int col = _dataGridView.Columns.Count;
+
         Width = gridGenislik + 96;
         LabelWriter();
         Icon sysIcon = SystemIcons.Information;
@@ -160,12 +160,6 @@ public partial class VtSample : Form
         _toolStripLabel.Text += @$"ve Sipariþ Adedi: {toplamSiparis}";
     }
     private void ToolStripSplitButton_Click(object sender, EventArgs e)
-    {
-        Form chartForm = ChartForm();
-        chartForm.ShowDialog();
-    }
-
-    private Form ChartForm()
     {
         using Form chartForm = new();
         chartForm.AutoSize = true;
@@ -216,7 +210,7 @@ public partial class VtSample : Form
         chart.DataSource = _dataGridView.DataSource;
         chartForm.Controls.Add(chart);
         ChartColorFormat(chart, series, chartArea);
-        return chartForm;
+        chartForm.ShowDialog();
     }
     private static void ChartColorFormat
         (Chart chart, Series series, ChartArea chartArea)
@@ -254,14 +248,11 @@ public partial class VtSample : Form
             Height = _yukseklik;
             return;
         }
-        else
-        {
-            ((ToolStripButton)sender).Text = @"Tümünü Göster";
-            DataGridViewRowColor(_dataGridView);
-        }
+        ((ToolStripButton)sender).Text = @"Tümünü Göster";
+        DataGridViewRowColor(_dataGridView);
         try
         {
-            _dataTable.DefaultView.RowFilter =
+            _dataTable.DefaultView.RowFilter = _=
                 $"{_toolStripComboBox.Text} LIKE " +
                 $"'%{_toolStripComboFilter.Text}%'";
         }
@@ -275,9 +266,9 @@ public partial class VtSample : Form
         }
 
         string m = $$"""
-            {Toplam {{ satir}}   adet satýr var.
-            "SStok Adedi: {{ toplamStokFiltreli}}  
-            Bilgi ikonuna iki kez týklayýp kaldýrabilirsiniz.}
+            Toplam {{satir}}   adet satýr var.
+            Stok Adedi: {{toplamStokFiltreli}}  
+            Bilgi ikonuna iki kez týklayýp kaldýrabilirsiniz.
             """ ;
         _notifyIcon.BalloonTipText = m;
         _notifyIcon.ShowBalloonTip(3_000);
