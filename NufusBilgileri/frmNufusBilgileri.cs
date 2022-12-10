@@ -1,30 +1,34 @@
 using System.Globalization;
 namespace NufusBilgileri;
-internal enum MedeniHal { Evli, Bekar };
+enum MedeniHal { Evli, Bekar };
 enum Cinsiyet { Bay, Bayan };
 public partial class frmNufusBilgileri : Form
 {
     readonly string TarihBicimi = "dd/MM/yyyy";
-    readonly List<string> iller = new() { "Adana", "Adýyaman", "Afyon", "Aðrý",
-        "Aksaray", "Amasya", "Ankara", "Antalya", "Ardahan", "Artvin", "Aydýn",
-        "Balýkesir", "Bartýn", "Batman", "Bayburt", "Bilecik", "Bingöl",
-        "Bitlis", "Bolu", "Burdur", "Bursa", "Çanakkale", "Çankýrý", "Çorum",
-        "Denizli", "Diyarbakýr", "Düzce", "Edirne", "Elazýð", "Erzincan",
-        "Erzurum", "Eskiþehir", "Gaziantep", "Giresun", "Gümüþhane", "Hakkâri",
-        "Hatay", "Iðdýr", "Isparta", "Ýstanbul", "Ýzmir", "Kahramanmaraþ",
-        "Karabük", "Karaman", "Kars", "Kastamonu", "Kayseri", "Kýrýkkale",
+    readonly List<string> iller = new() { "Adana", "Adýyaman", "Afyon",
+        "Aðrý", "Aksaray", "Amasya", "Ankara", "Antalya", "Ardahan",
+        "Artvin", "Aydýn", "Balýkesir", "Bartýn", "Batman", "Bayburt",
+        "Bilecik", "Bingöl", "Bitlis", "Bolu", "Burdur", "Bursa",
+        "Çanakkale", "Çankýrý", "Çorum", "Denizli", "Diyarbakýr",
+        "Düzce", "Edirne", "Elazýð", "Erzincan", "Erzurum", "Eskiþehir",
+        "Gaziantep", "Giresun", "Gümüþhane", "Hakkâri", "Hatay", "Iðdýr",
+        "Isparta", "Ýstanbul", "Ýzmir", "Kahramanmaraþ", "Karabük",
+        "Karaman", "Kars", "Kastamonu", "Kayseri", "Kýrýkkale",
         "Kýrklareli", "Kýrþehir", "Kilis", "Kocaeli", "Konya", "Kütahya",
         "Malatya", "Manisa", "Mardin", "Mersin", "Muðla", "Muþ", "Nevþehir",
         "Niðde", "Ordu", "Osmaniye", "Rize", "Sakarya", "Samsun", "Siirt",
         "Sinop", "Sivas", "Þanlýurfa", "Þýrnak", "Tekirdað", "Tokat",
-        "Trabzon", "Tunceli", "Uþak", "Van", "Yalova", "Yozgat", "Zonguldak" };
-    readonly List<string> basliklar = new() {"S.No", "Doðum Tarihi", "Ad Soyad",
-        "Doðum Yeri", "Medeni Hali", "Cinsiyet"};
-    readonly List<string> isimler = new() { "Ayþe BETÜL", "Amine OKUMUÞ",
-        "Süleyman UZUNKÖPRÜ", "Muhammed FATÝH", "Ahmet YASÝN", "Berces MÝRDENLÝ",
-        "Mustafa PARLAK", "Ömer ÖRENÇ", "Burak DERELÝ", "Oktay ÞENTÜRK",
-        "Sabri BÝRADLI","Hamit GÜMÜÞ", "Ýlhan GÜMÜÞ", "Bekir UZUN",
-        "Hamza OKUMUÞ" };
+        "Trabzon", "Tunceli", "Uþak", "Van",
+        "Yalova", "Yozgat", "Zonguldak" };
+    readonly List<string> basliklar = new()
+                {"S.No", "Doðum Tarihi", "Ad Soyad",
+                "Doðum Yeri", "Medeni Hali", "Cinsiyet"};
+    readonly List<string> isimler = new()
+        { "Ayþe BETÜL", "Amine OKUMUÞ",
+        "Süleyman UZUNKÖPRÜ", "Muhammed FATÝH", "Ahmet YASÝN",
+        "Ahmet MÝRDESLÝ", "Mustafa PARLAK", "Ömer ÖRENÇ", "Burak DERELÝ",
+        "Oktay ÞENTÜRK", "Köksal ÇOLAK", "Hamit GÜMÜÞ", "Yücel EYÜPOÐLU",
+        "Bekir UZUN", "Hamza OKUMUÞ" };
     ColumnSort columnSort;
     public frmNufusBilgileri()
     {
@@ -68,7 +72,8 @@ public partial class frmNufusBilgileri : Form
         lViKisi.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
         txtAdSoyad.Focus();
     }
-    private void Menu_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+    private void Menu_ItemClicked
+                (object sender, ToolStripItemClickedEventArgs e)
     {
         {
             Random rnd = new();
@@ -83,22 +88,20 @@ public partial class frmNufusBilgileri : Form
             foreach (ListViewItem item in lViKisi.Items)
             {
                 int adStn = basliklar.IndexOf("Ad Soyad");
-                if (item.SubItems[adStn].Text == isimler[isim])
+                if (item.SubItems[adStn].Text != isimler[isim]) continue;
+                if (lViKisi.Items.Count == isimler.Count())
                 {
-                    if (lViKisi.Items.Count == isimler.Count())
-                    {
-                        MessageBox.Show("Eklenebilecek isimlerin tümü bitti.");
-                        return;
-                    }//2. if merdiveni kapsam (scope) bitiþi.
-                    goto geri;
-                } //1. if merdiveni kapsam (scope) bitiþi.
-            }//foreach (ListViewItem item in lViKisi.Items) döngüsü bitti.
+                    MessageBox.Show("Eklenebilecek isimlerin tümü bitti.");
+                    return;
+                }
+                goto geri;
+            }
             KisiBilgi kisiBilgi = new();
             kisiBilgi.dTar = new DateTime(yilRnd, ay, gun);
             kisiBilgi.adSyd = isimler[isim];
             kisiBilgi.dYer = lBoxIller.Text = iller[dogYer];
             mskDogTar.Text = dteDogTarihi.Text =
-                kisiBilgi.dTar.ToString(TarihBicimi);
+                        kisiBilgi.dTar.ToString(TarihBicimi);
             txtAdSoyad.Text = kisiBilgi.adSyd;
             cmbDogYeri.Text = kisiBilgi.dYer;
             rdbBayan.Checked = isim <= 1;
@@ -122,32 +125,28 @@ public partial class frmNufusBilgileri : Form
                 "Doðru bir tarih biçimi girmelisiniz.");
             return;
         }
-        string[] lists =
+        List<string> lists = new()
         {string.Empty, tarih.ToString(TarihBicimi),  txtAdSoyad.Text.Trim(),
             cmbDogYeri.Text, chkMedeniHal.Text, cinsiyet};
-        ListViewItem lvItem = new(lists);
-        txtAdSoyad.Text = txtAdSoyad.Text.Trim().Replace("  ", " ");
+        ListViewItem lvItem = new(lists.ToArray());
+        txtAdSoyad.Text =
+            txtAdSoyad.Text.Trim().Replace("  ", " ");
         if (lViKisi.Items.Count > 0)
         {
             foreach (ListViewItem item in lViKisi.Items)
             {
                 adStn = basliklar.IndexOf("Ad Soyad");
-                if (item.SubItems[adStn].Text == txtAdSoyad.Text)
-                {
-                    Color sakla = item.BackColor;
-                    item.BackColor = Color.Gold;
-                    MessageBox.Show($"{txtAdSoyad.Text} zaten ekli");
-                    item.BackColor = sakla;
-                    return;
-                }
+                if (item.SubItems[adStn].Text != txtAdSoyad.Text) continue;
+                Color sakla = item.BackColor;
+                item.BackColor = Color.Gold;
+                MessageBox.Show($"{txtAdSoyad.Text} zaten ekli");
+                item.BackColor = sakla;
+                return;
             }
         }
         lViKisi.Items.Add(lvItem);
         BackColor = RgbRenkUret();
-        foreach (Control item in pnlGrup.Controls)
-        {
-            item.BackColor = RgbRenkUret();
-        }
+        foreach (Control c in pnlGrup.Controls) c.BackColor = RgbRenkUret();
         if (lViKisi.Items.Count % 2 != 0) lvItem.BackColor = RgbRenkUret();
         btnSil.Enabled = lViKisi.Items.Count > 0;
         if (lViKisi.Items.Count > 6)
@@ -162,85 +161,70 @@ public partial class frmNufusBilgileri : Form
     {
         Random rnd = new();
         return Color.FromArgb
-            (rnd.Next(i, j + 1), rnd.Next(i, j + 1), rnd.Next(i, j + 1));
+            (rnd.Next(i, j + 1),
+                rnd.Next(i, j + 1),
+                    rnd.Next(i, j + 1));
     }
     public void SatirNo(ListView lvi)
     {
         int sno = basliklar.IndexOf("S.No");
         int sayac = 0;
         foreach (ListViewItem item in lvi.Items)
-        {
             item.SubItems[sno].Text = (++sayac).ToString("00");
-        }
     }
     private void dteDogTarihi_ValueChanged(object sender, EventArgs e)
-    {
-        mskDogTar.Text = dteDogTarihi.Value.ToString(TarihBicimi);
-    }
+        => mskDogTar.Text = dteDogTarihi.Value.ToString(TarihBicimi);
+
     private void lBoxIller_Click(object sender, EventArgs e)
-    {
-        cmbDogYeri.Text = lBoxIller.Text;
-    }
+        => cmbDogYeri.Text = lBoxIller.Text;
+
     private void chkMedeniHal_CheckedChanged(object sender, EventArgs e)
-    {
-        MedeniHalCheck(sender as CheckBox);
-    }
+                        => MedeniHalCheck(sender as CheckBox);
+
     private void MedeniHalCheck(CheckBox chkBox)
-    {
-        chkBox.Text = chkBox.Checked //Burasý sorgulanan kýsým
-            ? //Burasý true ise çalýþan kýsým
-            Enum.GetName(typeof(MedeniHal), (int)MedeniHal.Evli)
-            : //Burasý false ise çalýþan kýsým
-            Enum.GetName(typeof(MedeniHal), (int)MedeniHal.Bekar);
-    }
+            => chkBox.Text =
+            Enum.GetName(typeof(MedeniHal), chkBox.Checked
+                                    ? (int)MedeniHal.Evli
+                                    : (int)MedeniHal.Bekar);
     private string Cinsiyeti()
-    {
-        if (rdbBay.Checked)
-        {
-            return Enum.GetName(typeof(Cinsiyet), (int)Cinsiyet.Bay);
-        }
-        else if (rdbBayan.Checked)
-        {
-            return Enum.GetName(typeof(Cinsiyet), (int)Cinsiyet.Bayan);
-        }
-        return string.Empty;
-    }
+        => Enum.GetName(typeof(Cinsiyet), rdbBay.Checked ?
+                    (int)Cinsiyet.Bay : (int)Cinsiyet.Bayan);
     private void BosNesneKontrol(out bool bosVarmi)
     {
         bosVarmi = false;
         string boslar = "Nüfus bilgileri eklenemiyor.\n";
         foreach (Control item in pnlGrup.Controls)
         {
-            if (item.Text == string.Empty)
+            if (item.Text != string.Empty) continue;
+            switch (item)
             {
-                if (item is CheckBox) continue;
-                if (item is GroupBox)
-                {
-                    if (!rdbBay.Checked && !rdbBayan.Checked)
+                case CheckBox:
+                    continue;
+                case GroupBox:
                     {
-                        boslar += "Cinsiyet Bilgisi Yok\n";
-                        bosVarmi = true;
+                        if (!rdbBay.Checked && !rdbBayan.Checked)
+                        {
+                            boslar += "Cinsiyet Bilgisi Yok\n";
+                            bosVarmi = true;
+                        }
+                        break;
                     }
-                }
-                else
-                {
+                default:
                     boslar += item.Name + "\n";
                     bosVarmi = true;
-                }
+                    break;
             }
         }
         if (bosVarmi == true)
             MessageBox.Show(boslar, "Bazý Nesneler Boþ Býrakýlmýþ");
     }
     private void txtAdSoyad_KeyPress(object sender, KeyPressEventArgs e)
-    {
-        e.Handled = KlavyeTusÝzni(txtAdSoyad, e, false);
-    }
+            => e.Handled = KlavyeTusÝzni(txtAdSoyad, e, false);
+
     public char OndalikAyrac()
-    {
-        return char.Parse(CultureInfo.CurrentCulture.
+        => char.Parse(CultureInfo.CurrentCulture.
             NumberFormat.NumberDecimalSeparator);
-    }
+
     private bool KlavyeTusÝzni
         (Control sender, KeyPressEventArgs e, bool StrNum = true)
     {
@@ -249,7 +233,8 @@ public partial class frmNufusBilgileri : Form
             bool araVirgul = !sender.Text.Contains(OndalikAyrac());
             e.Handled =
                 !(char.IsDigit(e.KeyChar) ||
-                  e.KeyChar == (char)Keys.Back || e.KeyChar == OndalikAyrac() &&
+                  e.KeyChar == (char)Keys.Back ||
+                  e.KeyChar == OndalikAyrac() &&
                   araVirgul);
         }
         else
@@ -263,13 +248,9 @@ public partial class frmNufusBilgileri : Form
         return e.Handled;
     }
     private void txtAdSoyad_Click(object sender, EventArgs e)
-    {
-        txtAdSoyad.SelectAll();
-    }
+                                    => txtAdSoyad.SelectAll();
     private void mskDogTar_Click(object sender, EventArgs e)
-    {
-        mskDogTar.SelectAll();
-    }
+                                    => mskDogTar.SelectAll();
     bool tikla;
     private void btnSutun_Click(object sender, EventArgs e)
     {
@@ -282,7 +263,8 @@ public partial class frmNufusBilgileri : Form
     {
         if (lViKisi.SelectedIndices.Count <= 0)
         {
-            MessageBox.Show("Listeden neyi silmemi istiyorsanýz seçmelisiniz.");
+            MessageBox.Show
+                ("Listeden neyi silmemi istiyorsanýz seçmelisiniz.");
             return;
         }
         if (lViKisi.Items.Count > 0 && lViKisi.SelectedIndices.Count > 0)
@@ -293,31 +275,26 @@ public partial class frmNufusBilgileri : Form
             }
             for (int i = 0; i < lViKisi.Items.Count; i++)
             {
-                if (lViKisi.Items[i].Selected)
-                {
-                    lViKisi.Items[i].Remove();
-                    i--;
-                }
+                if (!lViKisi.Items[i].Selected) continue;
+                lViKisi.Items[i].Remove();
+                i--;
             }
-            if (lViKisi.Items.Count > 0)
-                lViKisi.Items[lViKisi.Items.Count - 1].Selected = true;
+            lViKisi.Items[^1].Selected = lViKisi.Items.Count > 0;
             btnSil.Enabled = lViKisi.Items.Count > 0;
         }
     }
     private void lViKisi_ColumnClick(object sender, ColumnClickEventArgs e)
     {
-        if (e.Column == columnSort.e)
-        {
-            columnSort.sortStatus = columnSort.sortStatus == SortOrder.Ascending
-                ?
-                columnSort.sortStatus = SortOrder.Descending
-                :
-                columnSort.sortStatus = SortOrder.Ascending;
-        }
-        else
+        if (e.Column != columnSort.e)
         {
             columnSort.e = e.Column;
             columnSort.sortStatus = SortOrder.Ascending;
+        }
+        else
+        {
+            columnSort.sortStatus = columnSort.sortStatus == SortOrder.Ascending
+                ? columnSort.sortStatus = SortOrder.Descending
+                : columnSort.sortStatus = SortOrder.Ascending;
         }
         lViKisi.Sort();
     }
