@@ -143,7 +143,7 @@ public partial class WordWebPicture : Form
         #endregion Sekmeler ve Sekme Sayfalarý
         #region Dosyalama Ýþlemleri Ýçin Tanýmlamalar.
         _directoryInfo =
-       new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent;
+       new DirectoryInfo(Environment.CurrentDirectory).Parent.Parent.Parent;
         _filter = "Zengin Metin Biçimi Dosyalarý (*.rtf)|*.rtf" +
         "|" +
         "Text Dosyalar (*.txt)|*.txt";
@@ -298,12 +298,12 @@ public partial class WordWebPicture : Form
     private void TsmItemDoviz_Click(object sender, EventArgs e)
     {
         _tabControl.SelectedTab = _tabWeb;
-        string[] Diller = { "tr", "en" };
+        List<string> Diller = new() { "tr", "en" };
         DialogResult dialogResult = MessageBox.Show
         (@"Sayfa Türkçe Açýlsýn mý?",
        @"Dil Seçimi", MessageBoxButtons.YesNo);
-        string DilSecimi =
-       dialogResult == DialogResult.Yes ? Diller[0] : Diller[1];
+        string DilSecimi = dialogResult ==
+        DialogResult.Yes ? Diller.ToList().First() : Diller[^1];
         string link = "https://tcmb.gov.tr/wps/wcm/connect/";
         link += $"{DilSecimi}/tcmb+{DilSecimi}";
         link += "/main+page+site+area/";
@@ -364,12 +364,12 @@ public partial class WordWebPicture : Form
         ToolStripStatusLabel sLabel;
         List<string> durumCubuguMetni = new()
    {
-            $"{_i} adet resim yüklendi. Yüklenen resimlerin boyutu: "   ,
-            $"{bSize:N0} Byte " ,
+            $"{_i} adet resim yüklendi. Yüklenen resimlerin boyutu: ", //0
+            $"{bSize:N0} Byte ",                                       //1
             $"{BoyutDegeri(bSize, SIBirim.MegaByte):N0} " +
-            $"{SIBirim.MegaByte}"   ,
+            $"{SIBirim.MegaByte}",                                     //2
             $"{BoyutDegeri(bSize, SIBirim.GigaByte):N2} " +
-            $"{SIBirim.GigaByte }"
+            $"{SIBirim.GigaByte }"                                     //3
    };
         int durumCubuguAdet = durumCubuguMetni.Count;
         for (int i = 0; i < durumCubuguAdet; i++)
@@ -477,15 +477,11 @@ public partial class WordWebPicture : Form
     {
         kuvvet = kuvvet != 1_024 ? 1_000 : kuvvet;
         int birimFarki = (int)gelenBirim - (int)cevirBirim;
-        double carpan;
-        if (birimFarki > 0)
+        double carpan = birimFarki switch
         {
-            carpan = birimFarki / (double)kuvvet;
-        }
-        else
-        {
-            carpan = Math.Pow(kuvvet, birimFarki);
-        }
+            > 0 => birimFarki / (double)kuvvet,
+            _ => Math.Pow(kuvvet, birimFarki)
+        };
         return deger / carpan;
     }
     private void Boyutlar()
@@ -501,16 +497,17 @@ public partial class WordWebPicture : Form
     }
     public enum SIBirim
     {
-        Byte = 0,       //8 bit
-        KiloByte = 1,
-        MegaByte = 2,
-        GigaByte = 3,
-        TeraByte = 4,
-        PetaByte = 5,
-        ExaByte = 6,
-        ZettaByte = 7,
-        YottaByte = 8,
-        BrontoByte = 9
+        Byte = 0,       //8 bit	
+        KiloByte = 1,   //1.024 Byte
+        MegaByte = 2,   //1.048.576 Byte
+        GigaByte = 3,   //1.073.741.824 Byte 
+        TeraByte = 4,   //1.099.511.627.776 Byte
+        PetaByte = 5,   //1.125.899.906.842.624 Byte
+        ExaByte = 6,    //1.152.921.504.606.846.976 Byte
+        ZettaByte = 7,  //1.180.591.620.717.411.303.424 Byte
+        YottaByte = 8,  //1.208.925.819.614.629.174.706.176 Byte
+        BrontoByte = 9	//1.237.940.039.285.380.274.899.124.224 Byte
+
     }
     #endregion Dosya Boyut Bilgileri
     private static void _myStart(string yol)
