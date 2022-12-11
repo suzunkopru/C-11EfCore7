@@ -1,4 +1,3 @@
-using System.Globalization;
 namespace NufusBilgileri;
 enum MedeniHal { Evli, Bekar };
 enum Cinsiyet { Bay, Bayan };
@@ -24,21 +23,22 @@ public partial class frmNufusBilgileri : Form
                 {"S.No", "Doðum Tarihi", "Ad Soyad",
                 "Doðum Yeri", "Medeni Hali", "Cinsiyet"};
     readonly List<string> isimler = new()
-        { "Ayþe BETÜL", "Amine OKUMUÞ",
+        { "Ayþe BETÜL", "Amine OKUMUÞ", //Bayanlar
         "Süleyman UZUNKÖPRÜ", "Muhammed FATÝH", "Ahmet YASÝN",
         "Ahmet MÝRDESLÝ", "Mustafa PARLAK", "Ömer ÖRENÇ", "Burak DERELÝ",
         "Oktay ÞENTÜRK", "Köksal ÇOLAK", "Hamit GÜMÜÞ", "Yücel EYÜPOÐLU",
         "Bekir UZUN", "Hamza OKUMUÞ" };
-    ColumnSort columnSort;
+    ColumnSort columnSort; private int adStn;
     public frmNufusBilgileri()
     {
         InitializeComponent();
         columnSort = new ColumnSort();
         lViKisi.ListViewItemSorter = columnSort;
+        adStn = basliklar.IndexOf("Ad Soyad");
     }
     private struct KisiBilgi
     {
-        internal DateTime dTar;
+        internal DateOnly dTar;
         internal string adSyd;
         internal string dYer;
         internal MedeniHal medHal;
@@ -63,7 +63,7 @@ public partial class frmNufusBilgileri : Form
         lViKisi.HeaderStyle = ColumnHeaderStyle.Clickable;
         lViKisi.Sorting = SortOrder.Ascending;
         lViKisi.FullRowSelect = true;
-        for (int i = 0; i < basliklar.Count(); i++)
+        for (int i = 0; i < basliklar.Count; i++)
         {
             ColumnHeader columnHeader = new();
             columnHeader.Text = basliklar[i];
@@ -72,6 +72,7 @@ public partial class frmNufusBilgileri : Form
         lViKisi.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
         txtAdSoyad.Focus();
     }
+    private int rndSayaci;
     private void Menu_ItemClicked
                 (object sender, ToolStripItemClickedEventArgs e)
     {
@@ -79,45 +80,47 @@ public partial class frmNufusBilgileri : Form
             Random rnd = new();
             int yil = DateTime.Today.Year;
             int yilRnd = rnd.Next(yil - 40, yil - 18 + 1);
-            int ay = rnd.Next(1, 12 + 1);
-            int ayinSonGunu = DateTime.DaysInMonth(yilRnd, ay);
-            int gun = rnd.Next(1, ayinSonGunu + 1);
+            int ayRnd = rnd.Next(1, 12 + 1);
+            int ayinSonGunu = DateTime.DaysInMonth(yilRnd, ayRnd);
+            int gunRnd = rnd.Next(1, ayinSonGunu + 1);
             int dogYer = rnd.Next(0, iller.Count);
         geri:
             int isim = rnd.Next(0, isimler.Count);
             foreach (ListViewItem item in lViKisi.Items)
             {
-                int adStn = basliklar.IndexOf("Ad Soyad");
+
                 if (item.SubItems[adStn].Text != isimler[isim]) continue;
-                if (lViKisi.Items.Count == isimler.Count())
+                if (rndSayaci == isimler.Count)
                 {
-                    MessageBox.Show("Eklenebilecek isimlerin tümü bitti.");
+                    MessageBox.Show(@"Eklenebilecek isimlerin tümü bitti.");
                     return;
                 }
+                rndSayaci++;
                 goto geri;
             }
-            KisiBilgi kisiBilgi = new();
-            kisiBilgi.dTar = new DateTime(yilRnd, ay, gun);
-            kisiBilgi.adSyd = isimler[isim];
-            kisiBilgi.dYer = lBoxIller.Text = iller[dogYer];
+            KisiBilgi kisiBilgi = new()
+            {
+                dTar = new DateOnly(yilRnd, ayRnd, gunRnd),
+                adSyd = isimler[isim],
+                dYer = lBoxIller.Text = iller[dogYer]
+            };
             mskDogTar.Text = dteDogTarihi.Text =
                         kisiBilgi.dTar.ToString(TarihBicimi);
             txtAdSoyad.Text = kisiBilgi.adSyd;
             cmbDogYeri.Text = kisiBilgi.dYer;
-            rdbBayan.Checked = isim <= 1;
-            rdbBay.Checked = isim > 1;
+
+            rdbBay.Checked = !rdbBayan.Checked; //rdbBay.Checked = isim > 1;  //rdbBayan.Checked = isim <= 1;
             btnEkle_Click(null, null);
         }
     }
-    int adStn;
     private void btnEkle_Click(object sender, EventArgs e)
     {
         bool bosmu;
         BosNesneKontrol(out bosmu);
         if (bosmu) return;
         string cinsiyet = Cinsiyeti();
-        DateTime tarih;
-        bool tarihMi = DateTime.TryParse(mskDogTar.Text, out tarih);
+        DateOnly tarih;
+        bool tarihMi = DateOnly.TryParse(mskDogTar.Text, out tarih);
         if (!tarihMi)
         {
             MessageBox.Show
@@ -131,19 +134,9 @@ public partial class frmNufusBilgileri : Form
         ListViewItem lvItem = new(lists.ToArray());
         txtAdSoyad.Text =
             txtAdSoyad.Text.Trim().Replace("  ", " ");
-        if (lViKisi.Items.Count > 0)
-        {
-            foreach (ListViewItem item in lViKisi.Items)
-            {
-                adStn = basliklar.IndexOf("Ad Soyad");
-                if (item.SubItems[adStn].Text != txtAdSoyad.Text) continue;
-                Color sakla = item.BackColor;
-                item.BackColor = Color.Gold;
-                MessageBox.Show($"{txtAdSoyad.Text} zaten ekli");
-                item.BackColor = sakla;
-                return;
-            }
-        }
+        bool varmi = GetValue();
+        if (varmi) MessageBox.Show($"{txtAdSoyad.Text} zaten var.");
+        if (lViKisi.Items.Count > 0 && varmi) return;
         lViKisi.Items.Add(lvItem);
         BackColor = RgbRenkUret();
         foreach (Control c in pnlGrup.Controls) c.BackColor = RgbRenkUret();
@@ -156,6 +149,13 @@ public partial class frmNufusBilgileri : Form
             Height += rowH;
         }
         SatirNo(lViKisi);
+        txtAdSoyad.Focus();
+    }
+    private bool GetValue()
+    {
+        return (lViKisi.Items.Cast<ListViewItem>()
+            .Count(x => x.SubItems[adStn].Text
+                .Contains(txtAdSoyad.Text)) > 0);
     }
     public Color RgbRenkUret(byte i = 230, byte j = 250)
     {
@@ -174,13 +174,10 @@ public partial class frmNufusBilgileri : Form
     }
     private void dteDogTarihi_ValueChanged(object sender, EventArgs e)
         => mskDogTar.Text = dteDogTarihi.Value.ToString(TarihBicimi);
-
     private void lBoxIller_Click(object sender, EventArgs e)
         => cmbDogYeri.Text = lBoxIller.Text;
-
     private void chkMedeniHal_CheckedChanged(object sender, EventArgs e)
                         => MedeniHalCheck(sender as CheckBox);
-
     private void MedeniHalCheck(CheckBox chkBox)
             => chkBox.Text =
             Enum.GetName(typeof(MedeniHal), chkBox.Checked
@@ -215,16 +212,14 @@ public partial class frmNufusBilgileri : Form
                     break;
             }
         }
-        if (bosVarmi == true)
+        if (bosVarmi)
             MessageBox.Show(boslar, "Bazý Nesneler Boþ Býrakýlmýþ");
     }
     private void txtAdSoyad_KeyPress(object sender, KeyPressEventArgs e)
             => e.Handled = KlavyeTusÝzni(txtAdSoyad, e, false);
-
     public char OndalikAyrac()
         => char.Parse(CultureInfo.CurrentCulture.
             NumberFormat.NumberDecimalSeparator);
-
     private bool KlavyeTusÝzni
         (Control sender, KeyPressEventArgs e, bool StrNum = true)
     {
@@ -267,7 +262,8 @@ public partial class frmNufusBilgileri : Form
                 ("Listeden neyi silmemi istiyorsanýz seçmelisiniz.");
             return;
         }
-        if (lViKisi.Items.Count > 0 && lViKisi.SelectedIndices.Count > 0)
+        if (lViKisi.Items.Count > 0
+                && lViKisi.SelectedIndices.Count > 0)
         {
             for (int i = lViKisi.Items.Count - 1; i >= 0; i--)
             {
@@ -283,7 +279,8 @@ public partial class frmNufusBilgileri : Form
             btnSil.Enabled = lViKisi.Items.Count > 0;
         }
     }
-    private void lViKisi_ColumnClick(object sender, ColumnClickEventArgs e)
+    private void lViKisi_ColumnClick
+        (object sender, ColumnClickEventArgs e)
     {
         if (e.Column != columnSort.e)
         {
@@ -292,7 +289,8 @@ public partial class frmNufusBilgileri : Form
         }
         else
         {
-            columnSort.sortStatus = columnSort.sortStatus == SortOrder.Ascending
+            columnSort.sortStatus =
+                columnSort.sortStatus == SortOrder.Ascending
                 ? columnSort.sortStatus = SortOrder.Descending
                 : columnSort.sortStatus = SortOrder.Ascending;
         }
