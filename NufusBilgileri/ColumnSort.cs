@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿global using System.Globalization;
+using System.Collections;
 namespace NufusBilgileri;
 public class ColumnSort : IComparer
 {

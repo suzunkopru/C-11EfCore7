@@ -1,4 +1,3 @@
-global using System.Globalization;
 namespace NufusBilgileri;
 internal static class Program
 {

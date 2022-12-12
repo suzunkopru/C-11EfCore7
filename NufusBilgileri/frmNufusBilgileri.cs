@@ -88,14 +88,12 @@ public partial class frmNufusBilgileri : Form
             int isim = rnd.Next(0, isimler.Count);
             foreach (ListViewItem item in lViKisi.Items)
             {
-
                 if (item.SubItems[adStn].Text != isimler[isim]) continue;
                 if (rndSayaci == isimler.Count)
                 {
                     MessageBox.Show(@"Eklenebilecek isimlerin tümü bitti.");
                     return;
                 }
-                rndSayaci++;
                 goto geri;
             }
             KisiBilgi kisiBilgi = new()
@@ -108,9 +106,10 @@ public partial class frmNufusBilgileri : Form
                         kisiBilgi.dTar.ToString(TarihBicimi);
             txtAdSoyad.Text = kisiBilgi.adSyd;
             cmbDogYeri.Text = kisiBilgi.dYer;
-
-            rdbBay.Checked = !rdbBayan.Checked; //rdbBay.Checked = isim > 1;  //rdbBayan.Checked = isim <= 1;
+            // rdbBayan.Checked = isim <= 1;
+            rdbBay.Checked = !rdbBayan.Checked; //rdbBay.Checked = isim > 1; 
             btnEkle_Click(null, null);
+            rndSayaci++;
         }
     }
     private void btnEkle_Click(object sender, EventArgs e)
@@ -144,9 +143,13 @@ public partial class frmNufusBilgileri : Form
         btnSil.Enabled = lViKisi.Items.Count > 0;
         if (lViKisi.Items.Count > 6)
         {
+
             int rowH = lViKisi.Height / lViKisi.Items.Count;
-            lViKisi.Height += rowH;
-            Height += rowH;
+            if (Height <= 1000)
+            {
+                Height += rowH;
+                lViKisi.Height += rowH;
+            }
         }
         SatirNo(lViKisi);
         txtAdSoyad.Focus();
@@ -184,8 +187,8 @@ public partial class frmNufusBilgileri : Form
                                     ? (int)MedeniHal.Evli
                                     : (int)MedeniHal.Bekar);
     private string Cinsiyeti()
-        => Enum.GetName(typeof(Cinsiyet), rdbBay.Checked ?
-                    (int)Cinsiyet.Bay : (int)Cinsiyet.Bayan);
+        => Enum.GetName(typeof(Cinsiyet), rdbBay.Checked 
+                ? (int)Cinsiyet.Bay : (int)Cinsiyet.Bayan);
     private void BosNesneKontrol(out bool bosVarmi)
     {
         bosVarmi = false;
@@ -267,16 +270,12 @@ public partial class frmNufusBilgileri : Form
         {
             for (int i = lViKisi.Items.Count - 1; i >= 0; i--)
             {
+                if (lViKisi.Items.Count == 0) return;
                 if (lViKisi.Items[i].Selected) lViKisi.Items[i].Remove();
             }
-            for (int i = 0; i < lViKisi.Items.Count; i++)
-            {
-                if (!lViKisi.Items[i].Selected) continue;
-                lViKisi.Items[i].Remove();
-                i--;
-            }
-            lViKisi.Items[^1].Selected = lViKisi.Items.Count > 0;
             btnSil.Enabled = lViKisi.Items.Count > 0;
+            if (lViKisi.Items.Count > 0)
+                lViKisi.Items[^1].Selected = lViKisi.Items.Count > 0;
         }
     }
     private void lViKisi_ColumnClick
