@@ -111,7 +111,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileWordImageMenuTabControl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RangesveIndices", "RangesveIndices\RangesveIndices.csproj", "{5C4710EC-5B4D-47A0-A7E6-0BD2AAED03F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevexGrid", "DevexGrid\DevexGrid.csproj", "{CF23DFA9-FEB5-4FA3-8511-57DB9B5A63FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevexGrid", "DevexGrid\DevexGrid.csproj", "{CF23DFA9-FEB5-4FA3-8511-57DB9B5A63FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryableClass", "QueryableClass\QueryableClass.csproj", "{1B5F5109-1DE8-4F41-BA9E-E0A907D5AE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitvsReadOnly", "InitvsReadOnly\InitvsReadOnly.csproj", "{23D0EDB7-BE55-44AD-8FB1-72EA26166AB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -339,6 +343,14 @@ Global
 		{CF23DFA9-FEB5-4FA3-8511-57DB9B5A63FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF23DFA9-FEB5-4FA3-8511-57DB9B5A63FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF23DFA9-FEB5-4FA3-8511-57DB9B5A63FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5F5109-1DE8-4F41-BA9E-E0A907D5AE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5F5109-1DE8-4F41-BA9E-E0A907D5AE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5F5109-1DE8-4F41-BA9E-E0A907D5AE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5F5109-1DE8-4F41-BA9E-E0A907D5AE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D0EDB7-BE55-44AD-8FB1-72EA26166AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D0EDB7-BE55-44AD-8FB1-72EA26166AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D0EDB7-BE55-44AD-8FB1-72EA26166AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D0EDB7-BE55-44AD-8FB1-72EA26166AB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
