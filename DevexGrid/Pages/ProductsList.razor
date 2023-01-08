@@ -1,5 +1,52 @@
-﻿<h3>ProductsList</h3>
-
+﻿@page "/ProductPage"
+@using DevexGrid.Data
+@inject ProductDal ProductDal
+<PageTitle>Products List</PageTitle>
+<DxDataGrid DataAsync="@ProductDal.ProductList"
+            PageSize=@clmName.pSize
+            ShowFilterRow="false">
+    <DxDataGridColumn Field=@clmName.prdId
+                      Caption="@clmName.prdId"
+                      Width=@clmName.wdt></DxDataGridColumn>
+    <DxDataGridColumn Field=@clmName.prdName
+                      Caption=@clmName.prdName
+                      Width=@clmName.wdt></DxDataGridColumn>
+    <DxDataGridColumn Field=@clmName.supId
+                      Caption=@clmName.supId
+                      Width=@clmName.wdt></DxDataGridColumn>
+    <DxDataGridColumn Field=@clmName.catId
+                      Caption=@clmName.catId
+                      Width=@clmName.wdt></DxDataGridColumn>
+    <DxDataGridColumn Field=@clmName.qty
+                      Caption=@clmName.qty
+                      Width=@clmName.wdt></DxDataGridColumn>
+    <DxDataGridColumn Field=@clmName.untPrice
+                      Caption=@clmName.untPrice
+                      Width=@clmName.wdt></DxDataGridColumn>
+    <DxDataGridColumn Field=@clmName.stock
+                      Caption=@clmName.stock
+                      Width=@clmName.wdt></DxDataGridColumn>
+    <DxDataGridColumn Field=@clmName.order
+                      Caption=@clmName.order
+                      Width=@clmName.wdt></DxDataGridColumn>
+    <DxDataGridColumn Field=@clmName.disc
+                      Caption=@clmName.disc
+                      Width=@clmName.wdt></DxDataGridColumn>
+</DxDataGrid>
 @code {
-
+    (string prdId, string prdName,
+        string supId, string catId,
+        string qty, string untPrice,
+        string stock, string order, 
+        string disc, string @wdt, int pSize) clmName
+                = (nameof(Product.ProductID),
+                    nameof(Product.ProductName),
+                    nameof(Product.SupplierID),
+                    nameof(Product.CategoryID),
+                    nameof(Product.QuantityPerUnit),
+                    nameof(Product.UnitPrice),
+                    nameof(Product.UnitsInStock),
+                    nameof(Product.UnitsOnOrder),
+                    nameof(Product.Discontinued),
+                    10 + "px", 2);
 }
