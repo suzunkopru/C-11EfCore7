@@ -1,6 +1,6 @@
 ﻿@page "/KisiPage"
 <h1>Kişi</h1>
-@if (listKisi == null)
+@if (_listKisi == null)
 {
     <p>Yükleniyor...</p>
 }
@@ -16,7 +16,7 @@ else
         </tr>
         </thead>
         <tbody>
-        @foreach (var item in listKisi)
+        @foreach (var item in _listKisi)
         {
             <tr>
                 <td>@item.Adi</td>
@@ -29,8 +29,8 @@ else
     </table>
 }
 @code {
-    Kisi kisi = new();
-    List<Kisi> listKisi;
+    readonly Kisi _kisi = new();
+    List<Kisi>? _listKisi;
     protected override async Task OnInitializedAsync() 
-        => listKisi = kisi.KisilerListesi();
+        => _listKisi = _kisi.KisilerListesi();
 }

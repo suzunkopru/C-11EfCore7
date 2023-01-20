@@ -36,4 +36,3 @@ public class Address
     public string Il { get; set; }
     public string Ilce { get; set; }
 }
-
