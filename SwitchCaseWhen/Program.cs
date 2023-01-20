@@ -38,7 +38,6 @@ public interface IShape
         _ => throw new Exception($"Alan hesaplanamadı.")
     };
 }
-
 /*      Kare k when k.Alan == 0 =>
             $"{shape.GetType().Name} alanı " +
             $"{k.Kenar * k.Kenar:0,00}",
