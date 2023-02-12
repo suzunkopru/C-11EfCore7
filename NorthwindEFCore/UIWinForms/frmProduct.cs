@@ -193,6 +193,7 @@ public partial class frmProduct : Form
     }
     private void btnYeni_Click(object sender, EventArgs e)
                             => txtProductId.Text = "";
+    int satir = 0;
     private void btnTumu_Click(object sender, EventArgs e)
     {
         int satir = dgwProducts.CurrentRow.Cells[0].RowIndex > 1
