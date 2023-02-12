@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\bin\Debug\net7.0\refParameterModifier.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\bin\Debug\net7.0\refParameterModifier.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\bin\Debug\net7.0\refParameterModifier.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\bin\Debug\net7.0\refParameterModifier.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\bin\Debug\net7.0\refParameterModifier.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refParameterModifier.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refParameterModifier.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refParameterModifier.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refParameterModifier.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refParameterModifier.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refParameterModifier.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refint\refParameterModifier.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refParameterModifier.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\refParameterModifier.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\refParameterModifier\obj\Debug\net7.0\ref\refParameterModifier.dll

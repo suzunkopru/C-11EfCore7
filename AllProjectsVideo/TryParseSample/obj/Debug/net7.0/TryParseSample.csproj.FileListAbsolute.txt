@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\bin\Debug\net7.0\TryParseSample.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\bin\Debug\net7.0\TryParseSample.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\bin\Debug\net7.0\TryParseSample.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\bin\Debug\net7.0\TryParseSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\bin\Debug\net7.0\TryParseSample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\TryParseSample.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\TryParseSample.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\TryParseSample.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\TryParseSample.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\TryParseSample.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\TryParseSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\refint\TryParseSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\TryParseSample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\TryParseSample.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\TryParseSample\obj\Debug\net7.0\ref\TryParseSample.dll

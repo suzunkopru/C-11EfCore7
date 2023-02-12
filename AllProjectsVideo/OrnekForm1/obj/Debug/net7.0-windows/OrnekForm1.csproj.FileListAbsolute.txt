@@ -1,0 +1,17 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\bin\Debug\net7.0-windows\OrnekForm1.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\bin\Debug\net7.0-windows\OrnekForm1.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\bin\Debug\net7.0-windows\OrnekForm1.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\bin\Debug\net7.0-windows\OrnekForm1.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\bin\Debug\net7.0-windows\OrnekForm1.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.OrnekForm1.resources
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.csproj.GenerateResource.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\refint\OrnekForm1.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\OrnekForm1.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\OrnekForm1\obj\Debug\net7.0-windows\ref\OrnekForm1.dll

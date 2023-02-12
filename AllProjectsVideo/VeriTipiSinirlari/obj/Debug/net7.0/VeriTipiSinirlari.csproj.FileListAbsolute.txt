@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\bin\Debug\net7.0\VeriTipiSinirlari.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\bin\Debug\net7.0\VeriTipiSinirlari.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\bin\Debug\net7.0\VeriTipiSinirlari.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\bin\Debug\net7.0\VeriTipiSinirlari.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\bin\Debug\net7.0\VeriTipiSinirlari.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\VeriTipiSinirlari.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\VeriTipiSinirlari.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\VeriTipiSinirlari.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\VeriTipiSinirlari.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\VeriTipiSinirlari.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\VeriTipiSinirlari.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\refint\VeriTipiSinirlari.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\VeriTipiSinirlari.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\VeriTipiSinirlari.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\VeriTipiSinirlari\obj\Debug\net7.0\ref\VeriTipiSinirlari.dll

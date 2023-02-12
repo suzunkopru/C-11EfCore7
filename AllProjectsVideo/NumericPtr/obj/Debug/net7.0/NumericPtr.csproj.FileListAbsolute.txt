@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\bin\Debug\net7.0\NumericPtr.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\bin\Debug\net7.0\NumericPtr.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\bin\Debug\net7.0\NumericPtr.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\bin\Debug\net7.0\NumericPtr.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\bin\Debug\net7.0\NumericPtr.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\NumericPtr.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\NumericPtr.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\NumericPtr.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\NumericPtr.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\NumericPtr.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\NumericPtr.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\refint\NumericPtr.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\NumericPtr.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\NumericPtr.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumericPtr\obj\Debug\net7.0\ref\NumericPtr.dll

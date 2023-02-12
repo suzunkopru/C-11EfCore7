@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\bin\Debug\net7.0\Ornek1.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\bin\Debug\net7.0\Ornek1.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\bin\Debug\net7.0\Ornek1.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\bin\Debug\net7.0\Ornek1.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\bin\Debug\net7.0\Ornek1.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\Ornek1.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\Ornek1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\Ornek1.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\Ornek1.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\Ornek1.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\Ornek1.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\refint\Ornek1.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\Ornek1.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\Ornek1.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\Ornek1\obj\Debug\net7.0\ref\Ornek1.dll

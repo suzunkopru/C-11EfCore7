@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\bin\Debug\net7.0\DateOnlySample.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\bin\Debug\net7.0\DateOnlySample.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\bin\Debug\net7.0\DateOnlySample.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\bin\Debug\net7.0\DateOnlySample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\bin\Debug\net7.0\DateOnlySample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\DateOnlySample.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\DateOnlySample.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\DateOnlySample.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\DateOnlySample.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\DateOnlySample.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\DateOnlySample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\refint\DateOnlySample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\DateOnlySample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\DateOnlySample.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DateOnlySample\obj\Debug\net7.0\ref\DateOnlySample.dll

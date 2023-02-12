@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\bin\Debug\net7.0\ClassAndProperty.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\bin\Debug\net7.0\ClassAndProperty.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\bin\Debug\net7.0\ClassAndProperty.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\bin\Debug\net7.0\ClassAndProperty.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\bin\Debug\net7.0\ClassAndProperty.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ClassAndProperty.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ClassAndProperty.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ClassAndProperty.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ClassAndProperty.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ClassAndProperty.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ClassAndProperty.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\refint\ClassAndProperty.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ClassAndProperty.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ClassAndProperty.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ClassAndProperty\obj\Debug\net7.0\ref\ClassAndProperty.dll

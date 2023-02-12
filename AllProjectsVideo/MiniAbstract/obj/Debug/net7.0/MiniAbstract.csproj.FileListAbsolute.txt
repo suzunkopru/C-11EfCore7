@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\bin\Debug\net7.0\MiniAbstract.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\bin\Debug\net7.0\MiniAbstract.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\bin\Debug\net7.0\MiniAbstract.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\bin\Debug\net7.0\MiniAbstract.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\bin\Debug\net7.0\MiniAbstract.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\MiniAbstract.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\MiniAbstract.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\MiniAbstract.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\MiniAbstract.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\MiniAbstract.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\MiniAbstract.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\refint\MiniAbstract.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\MiniAbstract.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\MiniAbstract.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\MiniAbstract\obj\Debug\net7.0\ref\MiniAbstract.dll

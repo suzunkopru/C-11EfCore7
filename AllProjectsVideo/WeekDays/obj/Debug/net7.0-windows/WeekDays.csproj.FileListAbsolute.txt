@@ -1,0 +1,17 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\bin\Debug\net7.0-windows\WeekDays.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\bin\Debug\net7.0-windows\WeekDays.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\bin\Debug\net7.0-windows\WeekDays.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\bin\Debug\net7.0-windows\WeekDays.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\bin\Debug\net7.0-windows\WeekDays.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.Ornek2.resources
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.csproj.GenerateResource.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\refint\WeekDays.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\WeekDays.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\WeekDays\obj\Debug\net7.0-windows\ref\WeekDays.dll

@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\bin\Debug\net7.0\InheritImplement.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\bin\Debug\net7.0\InheritImplement.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\bin\Debug\net7.0\InheritImplement.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\bin\Debug\net7.0\InheritImplement.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\bin\Debug\net7.0\InheritImplement.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\InheritImplement.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\InheritImplement.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\InheritImplement.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\InheritImplement.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\InheritImplement.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\InheritImplement.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\refint\InheritImplement.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\InheritImplement.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\InheritImplement.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\InheritImplement\obj\Debug\net7.0\ref\InheritImplement.dll

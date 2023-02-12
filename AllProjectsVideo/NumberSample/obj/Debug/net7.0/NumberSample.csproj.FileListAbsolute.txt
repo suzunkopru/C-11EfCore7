@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\bin\Debug\net7.0\NumberSample.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\bin\Debug\net7.0\NumberSample.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\bin\Debug\net7.0\NumberSample.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\bin\Debug\net7.0\NumberSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\bin\Debug\net7.0\NumberSample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\NumberSample.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\NumberSample.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\NumberSample.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\NumberSample.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\NumberSample.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\NumberSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\refint\NumberSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\NumberSample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\NumberSample.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\NumberSample\obj\Debug\net7.0\ref\NumberSample.dll

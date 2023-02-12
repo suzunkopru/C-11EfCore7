@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\bin\Debug\net7.0\RequiredMembers.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\bin\Debug\net7.0\RequiredMembers.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\bin\Debug\net7.0\RequiredMembers.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\bin\Debug\net7.0\RequiredMembers.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\bin\Debug\net7.0\RequiredMembers.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\RequiredMembers.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\RequiredMembers.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\RequiredMembers.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\RequiredMembers.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\RequiredMembers.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\RequiredMembers.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\refint\RequiredMembers.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\RequiredMembers.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\RequiredMembers.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\RequiredMembers\obj\Debug\net7.0\ref\RequiredMembers.dll

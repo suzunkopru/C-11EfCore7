@@ -1,0 +1,99 @@
+﻿@page "/SwitchSample"
+<h3>SwitchSample</h3>
+@if (listem == null)
+{
+    <p>Yükleniyor...</p>
+}
+else
+{
+    <style>
+        .sag {
+            text-align: right
+        }</style>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ürün Adı</th>
+                <th class="sag">Tutar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in listem)
+            {
+                <tr>
+                    <td>@item.Value</td>
+                    <td class="sag">@item.Key.C2()</td>
+                </tr>
+            }
+            <tr>
+                <td><h5>Alışveriş Toplamı</h5></td>
+                <td class="sag">
+                    <h5>
+                        @CalcMath(myList(),islemler.Sum).C2()
+                    </h5>
+                </td>
+            </tr>
+            <tr>
+                <td><h5>Alışveriş Ortalaması</h5></td>
+                <td class="sag">
+                    <h5>
+                        @CalcMath(myList(),
+                    islemler.Avg).C2()
+                    </h5>
+                </td>
+            </tr>
+            <tr>
+                <td><h5>Alışveriş Adedi</h5></td>
+                <td class="sag">
+                    <h5>
+                        @CalcMath(myList(),
+                    islemler.Count) Ad.
+                    </h5>
+                </td>
+            </tr>
+            <tr>
+                <td><h5>Alınan İlk Ürünün Fiyatı</h5></td>
+                <td class="sag">
+                    <h5>
+                        @CalcMath(myList(),
+                    islemler.First).C2()
+                    </h5>
+                </td>
+            </tr>
+            <tr>
+                <td><h5>Alınan Son Ürünün Fiyatı</h5></td>
+                <td class="sag">
+                    <h5>
+                        @CalcMath(myList(),
+                    islemler.Last).C2()
+                    </h5>
+                </td>
+            </tr>
+            <tr>
+                <td><h5>En Pahalı Ürünün Fiyatı</h5></td>
+                <td class="sag">
+                    <h5>
+                        @CalcMath(myList(),
+                    islemler.Max).C2()
+                    </h5>
+                </td>
+            </tr>
+            <tr>
+                <td><h5>En Ucuz Ürünün Fiyatı</h5></td>
+                <td class="sag">
+                    <h5>
+                        @CalcMath(myList(),
+                    islemler.Min).C2()
+                    </h5>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}
+@code {
+    Dictionary<double, string> listem;
+
+    protected async override Task OnInitializedAsync()
+        => listem = Alisveris;
+    private List<double> myList() => listem.Keys.ToList();
+}

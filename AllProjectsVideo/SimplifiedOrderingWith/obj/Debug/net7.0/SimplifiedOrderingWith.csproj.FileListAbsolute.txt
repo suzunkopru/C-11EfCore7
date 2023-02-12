@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\bin\Debug\net7.0\SimplifiedOrderingWith.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\bin\Debug\net7.0\SimplifiedOrderingWith.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\bin\Debug\net7.0\SimplifiedOrderingWith.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\bin\Debug\net7.0\SimplifiedOrderingWith.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\bin\Debug\net7.0\SimplifiedOrderingWith.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\SimplifiedOrderingWith.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\SimplifiedOrderingWith.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\SimplifiedOrderingWith.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\SimplifiedOrderingWith.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\SimplifiedOrderingWith.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\SimplifiedOrderingWith.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\refint\SimplifiedOrderingWith.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\SimplifiedOrderingWith.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\SimplifiedOrderingWith.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\SimplifiedOrderingWith\obj\Debug\net7.0\ref\SimplifiedOrderingWith.dll

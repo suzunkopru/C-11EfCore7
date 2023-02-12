@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\bin\Debug\net7.0\ObjetOrientedSample.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\bin\Debug\net7.0\ObjetOrientedSample.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\bin\Debug\net7.0\ObjetOrientedSample.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\bin\Debug\net7.0\ObjetOrientedSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\bin\Debug\net7.0\ObjetOrientedSample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ObjetOrientedSample.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ObjetOrientedSample.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ObjetOrientedSample.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ObjetOrientedSample.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ObjetOrientedSample.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ObjetOrientedSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\refint\ObjetOrientedSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ObjetOrientedSample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ObjetOrientedSample.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\ObjetOrientedSample\obj\Debug\net7.0\ref\ObjetOrientedSample.dll

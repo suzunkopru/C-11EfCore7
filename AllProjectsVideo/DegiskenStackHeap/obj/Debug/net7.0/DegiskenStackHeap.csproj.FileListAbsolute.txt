@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\bin\Debug\net7.0\DegiskenStackHeap.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\bin\Debug\net7.0\DegiskenStackHeap.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\bin\Debug\net7.0\DegiskenStackHeap.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\bin\Debug\net7.0\DegiskenStackHeap.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\bin\Debug\net7.0\DegiskenStackHeap.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\DegiskenStackHeap.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\DegiskenStackHeap.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\DegiskenStackHeap.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\DegiskenStackHeap.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\DegiskenStackHeap.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\DegiskenStackHeap.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\refint\DegiskenStackHeap.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\DegiskenStackHeap.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\DegiskenStackHeap.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DegiskenStackHeap\obj\Debug\net7.0\ref\DegiskenStackHeap.dll

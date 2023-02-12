@@ -1,0 +1,15 @@
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\bin\Debug\net7.0\DynamicSample.exe
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\bin\Debug\net7.0\DynamicSample.deps.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\bin\Debug\net7.0\DynamicSample.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\bin\Debug\net7.0\DynamicSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\bin\Debug\net7.0\DynamicSample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\DynamicSample.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\DynamicSample.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\DynamicSample.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\DynamicSample.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\DynamicSample.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\DynamicSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\refint\DynamicSample.dll
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\DynamicSample.pdb
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\DynamicSample.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\Kitap\AllProjects\DynamicSample\obj\Debug\net7.0\ref\DynamicSample.dll

@@ -1,0 +1,25 @@
+{
+  "Data": [
+    {
+      "Adi": "Süleyman",
+      "Soyadi": "UZUNKÖPRÜ",
+      "Cinsiyeti": "Erkek",
+      "DogumYeri": "Tekirdağ",
+      "DogumYili": 1976
+    },
+    {
+      "Adi": "Ahmet Yasin",
+      "Soyadi": "UZUNKÖPRÜ",
+      "Cinsiyeti": "Erkek",
+      "DogumYeri": "Sakarya",
+      "DogumYili": 2012
+    },
+    {
+      "Adi": "Ayşe Betül",
+      "Soyadi": "UZUNKÖPRÜ",
+      "Cinsiyeti": "Kız",
+      "DogumYeri": "İstanbul",
+      "DogumYili": 2014
+    }
+  ]
+}
