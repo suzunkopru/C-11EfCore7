@@ -11,6 +11,7 @@ internal static class Program
             Configure().Resolve<IDalDtoProductCatName>(),
             Configure().Resolve<IDalCategory>(),
             Configure().Resolve<IDalSupplier>(),
+            Configure().Resolve<IDalVwProdCatSup>(),
             Configure().Resolve<frmCategories>(),
             Configure().Resolve<frmProdCatSup>(),
             Configure().Resolve<frmSuppliers>(),

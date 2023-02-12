@@ -16,6 +16,7 @@ public static class AutoFacImp
         builder.RegisterType<DalRegion>().As<IDalRegion>();
         builder.RegisterType<DalShipper>().As<IDalShipper>();
         builder.RegisterType<DalTerritory>().As<IDalTerritory>();
+        builder.RegisterType<DalVwProdCatSup>().As<IDalVwProdCatSup>();
         builder.RegisterType<NorthwindContext>();
         builder.RegisterType<frmCategories>();
         builder.RegisterType<frmProdCatSup>();

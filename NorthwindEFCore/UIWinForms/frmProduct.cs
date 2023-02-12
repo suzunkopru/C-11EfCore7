@@ -11,6 +11,7 @@ public partial class frmProduct : Form
     private readonly IDalRegion dalRegion;
     private readonly IDalShipper dalShipper;
     private readonly IDalTerritory dalTerritory;
+    private readonly IDalVwProdCatSup dalVwProdCatSup;
     private readonly frmCategories frmCat;
     private readonly frmProdCatSup frmCatSup;
     private readonly frmSuppliers frmSup;
@@ -20,6 +21,7 @@ public partial class frmProduct : Form
                         IDalDtoProductCatName p_dalPrdCatName,
                         IDalCategory p_dalCategory,
                         IDalSupplier p_dalSupplier,
+                        IDalVwProdCatSup p_dalVwProdCatSup,
                         frmCategories p_frmCat,
                         frmProdCatSup p_frmCatSup,
                         frmSuppliers p_frmSup,
@@ -29,6 +31,7 @@ public partial class frmProduct : Form
         dalCategory = p_dalCategory;        //new DalCategory(context);
         dalSupplier = p_dalSupplier;        //new DalSupplier(context);
         dalPrdCatName = p_dalPrdCatName;    //new DalDtoProductCatName(context);
+        dalVwProdCatSup = p_dalVwProdCatSup;
         frmCat = p_frmCat;
         frmCatSup = p_frmCatSup;
         frmSup = p_frmSup;
