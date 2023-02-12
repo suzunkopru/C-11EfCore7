@@ -193,19 +193,18 @@ public partial class frmProduct : Form
     }
     private void btnYeni_Click(object sender, EventArgs e)
                             => txtProductId.Text = "";
-    int satir = 0;
     private void btnTumu_Click(object sender, EventArgs e)
     {
-        satir = dgwProducts.CurrentRow.Cells[0].RowIndex > 1
+        int satir = dgwProducts.CurrentRow.Cells[0].RowIndex > 1
                             ? dgwProducts.CurrentRow.Cells[0].RowIndex
                             : dgwProducts.RowCount - 1;
         dgwProducts.DataSource = ProductIncludeData().ToList();
         DgwFormat(dgwProducts);
         txtAra.Clear();
-        dgwProducts.CurrentCell = dgwProducts.Rows[satir-1].Cells[1];
+        dgwProducts.CurrentCell = dgwProducts.Rows[satir - 1].Cells[1];
     }
     private void btnCategories_Click(object sender, EventArgs e) => frmCat.Show();
-    private void btnSupplier_Click(object sender, EventArgs e) =>frmSup.Show();
+    private void btnSupplier_Click(object sender, EventArgs e) => frmSup.Show();
     private void btnDTO_Click(object sender, EventArgs e) => frmCatSup.Show();
     public void DgwFormat(DataGridView dgw)
     {
