@@ -1,0 +1,17 @@
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.Form1.resources
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.csproj.GenerateResource.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\bin\Debug\net7.0-windows\AsOperator.exe
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\bin\Debug\net7.0-windows\AsOperator.deps.json
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\bin\Debug\net7.0-windows\AsOperator.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\bin\Debug\net7.0-windows\AsOperator.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\bin\Debug\net7.0-windows\AsOperator.pdb
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\refint\AsOperator.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.pdb
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\AsOperator.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AsOperator\obj\Debug\net7.0-windows\ref\AsOperator.dll

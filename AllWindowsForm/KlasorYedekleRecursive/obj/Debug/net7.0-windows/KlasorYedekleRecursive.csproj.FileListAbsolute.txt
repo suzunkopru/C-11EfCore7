@@ -1,0 +1,34 @@
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.exe
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.deps.json
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.pdb
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.KlasorYedekleRecursive.resources
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.csproj.GenerateResource.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\refint\KlasorYedekleRecursive.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.pdb
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\ref\KlasorYedekleRecursive.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.exe
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.deps.json
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.runtimeconfig.json
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\bin\Debug\net7.0-windows\KlasorYedekleRecursive.pdb
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.csproj.AssemblyReference.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.KlasorYedekleRecursive.resources
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.csproj.GenerateResource.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.AssemblyInfoInputs.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.AssemblyInfo.cs
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.csproj.CoreCompileInputs.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\refint\KlasorYedekleRecursive.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.pdb
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\KlasorYedekleRecursive.genruntimeconfig.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\KlasorYedekleRecursive\obj\Debug\net7.0-windows\ref\KlasorYedekleRecursive.dll

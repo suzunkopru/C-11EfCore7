@@ -1,0 +1,34 @@
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.exe
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.deps.json
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.runtimeconfig.json
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.pdb
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.csproj.AssemblyReference.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.Ornek1.resources
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.csproj.GenerateResource.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.AssemblyInfoInputs.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.AssemblyInfo.cs
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\refint\AllWindowsForm.dll
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.pdb
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.genruntimeconfig.cache
+D:\GitHub\CSharp11\Projelerim\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\ref\AllWindowsForm.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.exe
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.deps.json
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.runtimeconfig.json
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\bin\Debug\net7.0-windows\AllWindowsForm.pdb
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.csproj.AssemblyReference.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.Ornek1.resources
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.csproj.GenerateResource.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.AssemblyInfoInputs.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.AssemblyInfo.cs
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.csproj.CoreCompileInputs.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\refint\AllWindowsForm.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.pdb
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\AllWindowsForm.genruntimeconfig.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\AllWindowsForm\AllWindowsForm\obj\Debug\net7.0-windows\ref\AllWindowsForm.dll
