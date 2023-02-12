@@ -93,14 +93,16 @@ public partial class frmProduct : Form
         await CUDEntity(CUDType.Insert, product);
         DgwFormat(dgwProducts);
         MessageBox.Show($"{nameof(Product)} inserted");
-        btnTumu_Click(null, null);
+        btnTumu_Click(sender as Button, null);
     }
+    int row;
     private async void btnGuncelle_Click(object sender, EventArgs e)
     {
+        row = dgwProducts.CurrentRow.Cells[0].RowIndex;
         await CUDEntity(CUDType.Update, product);
         DgwFormat(dgwProducts);
         MessageBox.Show($"{nameof(Product)} modified");
-        btnTumu_Click(null, null);
+        btnTumu_Click(sender as Button, null);
     }
     private async void btnSil_Click(object sender, EventArgs e)
     {
@@ -108,8 +110,7 @@ public partial class frmProduct : Form
         await CUDEntity(CUDType.Delete, product);
         DgwFormat(dgwProducts);
         MessageBox.Show($"{nameof(Product)} deleted");
-        satir--;
-        btnTumu_Click(null, null);
+        btnTumu_Click(sender as Button, null);
     }
     private async Task CUDEntity(CUDType cruType, Product prd)
     {
@@ -193,16 +194,17 @@ public partial class frmProduct : Form
     }
     private void btnYeni_Click(object sender, EventArgs e)
                             => txtProductId.Text = "";
-    int satir = 0;
     private void btnTumu_Click(object sender, EventArgs e)
     {
-        int satir = dgwProducts.CurrentRow.Cells[0].RowIndex > 1
-                            ? dgwProducts.CurrentRow.Cells[0].RowIndex
-                            : dgwProducts.RowCount - 1;
+        int satir = dgwProducts.RowCount - 1;
         dgwProducts.DataSource = ProductIncludeData().ToList();
         DgwFormat(dgwProducts);
         txtAra.Clear();
-        dgwProducts.CurrentCell = dgwProducts.Rows[satir - 1].Cells[1];
+        Button? btn = sender as Button;
+        int num = btn.Name == btnSil.Name ? -1 : btn.Name == btnEkle.Name ? 1 : 0;
+        dgwProducts.CurrentCell = btn.Name == btnGuncelle.Name
+            ? dgwProducts.Rows[row].Cells[1]
+            : dgwProducts.Rows[satir + num].Cells[1];
     }
     private void btnCategories_Click(object sender, EventArgs e) => frmCat.Show();
     private void btnSupplier_Click(object sender, EventArgs e) => frmSup.Show();
