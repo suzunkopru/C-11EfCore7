@@ -10,7 +10,8 @@ internal static class Program
             Configure().Resolve<IDalProduct>(),
             Configure().Resolve<IDalDtoProductCatName>(),
             Configure().Resolve<IDalCategory>(),
-            Configure().Resolve<IDalSupplier>()
+            Configure().Resolve<IDalSupplier>(),
+             Configure().Resolve<NorthwindContext>()
             ));
     }
 }

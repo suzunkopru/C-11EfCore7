@@ -16,9 +16,10 @@ public partial class frmProduct : Form
                         IDalProduct p_dalProduct,
                         IDalDtoProductCatName p_dalPrdCatName,
                         IDalCategory p_dalCategory,
-                        IDalSupplier p_dalSupplier)
+                        IDalSupplier p_dalSupplier,
+                        NorthwindContext p_context)
     {
-        context = new();
+        context = p_context;
         dalProduct = p_dalProduct;          //new DalProduct(context);
         dalCategory = p_dalCategory;        //new DalCategory(context);
         dalSupplier = p_dalSupplier;        //new DalSupplier(context);
