@@ -1,12 +1,11 @@
 ﻿namespace UIWinForms;
 public partial class frmProdCatSup : Form
 {
-    private readonly NorthwindContext context;
     private readonly IDalVwProdCatSup dalVwProdCatSup;
-    public frmProdCatSup()
+    public frmProdCatSup(IDalVwProdCatSup p_dalVwProdCatSup)
     {
         InitializeComponent();
-        dalVwProdCatSup = new DalVwProdCatSup(context = new ());
+        dalVwProdCatSup = p_dalVwProdCatSup;
     }
 
     private void frmProdCatSup_Load(object sender, EventArgs e)

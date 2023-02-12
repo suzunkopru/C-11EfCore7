@@ -21,6 +21,7 @@ public static class AutoFacImp
         builder.RegisterType<frmProdCatSup>();
         builder.RegisterType<frmProduct>();
         builder.RegisterType<frmSuppliers>();
+        builder.RegisterType<Product>();
         //EF Core  ile çalışmak istendiğinde;
         //builder.RegisterType<EFEntityRepo>().As<IEntityRepo>();
         //NHibernate ile çalışmak istendiğinde;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YyJm/Cl+rGaneP7tb6WgADb0GX3u9s1//rX2UFs9oSs=",
+  "Hash": "DoCwgiRcY6Vj1fi1CRXWDuywpl7mNT2KYOe9CMSe6v8=",
   "Source": "UIBlazor",
   "BasePath": "_content/UIBlazor",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "UIBlazor\\wwwroot",
       "Source": "UIBlazor",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "Pattern": "**"
     }
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "C:\\Users\\suzunkopru\\.nuget\\packages\\devexpress.blazor\\22.2.4\\staticwebassets\\modules\\window-resize-helper-8b32f302.js"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\UIBlazor.styles.css",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\UIBlazor.styles.css",
       "SourceId": "UIBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "UIBlazor.styles.css",
       "AssetKind": "All",
@@ -2088,13 +2088,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\UIBlazor.styles.css"
+      "OriginalItemSpec": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\UIBlazor.styles.css"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\UIBlazor.bundle.scp.css",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\UIBlazor.bundle.scp.css",
       "SourceId": "UIBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "UIBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -2105,13 +2105,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\UIBlazor.bundle.scp.css"
+      "OriginalItemSpec": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\UIBlazor.bundle.scp.css"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\site.css",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\css\\site.css",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\favicon.png",
+      "Identity": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\favicon.png",
       "SourceId": "UIBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
+      "ContentRoot": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIBlazor\\wwwroot\\",
       "BasePath": "_content/UIBlazor",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

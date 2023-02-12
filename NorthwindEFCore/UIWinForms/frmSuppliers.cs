@@ -1,12 +1,11 @@
 ﻿namespace UIWinForms;
 public partial class frmSuppliers: Form
 {
-    private readonly NorthwindContext context;
     private readonly IDalSupplier dalSupplier;
-    public frmSuppliers()
+    public frmSuppliers(IDalSupplier p_dalSupplier)
     {
         InitializeComponent();
-        dalSupplier = new DalSupplier(context = new());
+        dalSupplier = p_dalSupplier;
     }
     private void frmSuppliers_Load(object sender, EventArgs e)
     {

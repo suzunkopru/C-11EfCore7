@@ -3,11 +3,10 @@ namespace UIWinForms;
 public partial class frmCategories : Form
 {
     private readonly IDalCategory dalCategory;
-    private readonly NorthwindContext context;
-    public frmCategories()
+    public frmCategories(IDalCategory p_dalCategory)
     {
         InitializeComponent();
-        dalCategory = new DalCategory(context = new());
+        dalCategory = p_dalCategory;
     }
 
     private void frmCategories_Load(object sender, EventArgs e)

@@ -1,7 +1,6 @@
 namespace UIWinForms;
 public partial class frmProduct : Form
 {
-    private readonly NorthwindContext context;
     private readonly IDalCategory dalCategory;
     private readonly IDalProduct dalProduct;
     private readonly IDalDtoProductCatName dalPrdCatName;
@@ -12,17 +11,28 @@ public partial class frmProduct : Form
     private readonly IDalRegion dalRegion;
     private readonly IDalShipper dalShipper;
     private readonly IDalTerritory dalTerritory;
+    private readonly frmCategories frmCat;
+    private readonly frmProdCatSup frmCatSup;
+    private readonly frmSuppliers frmSup;
+    private readonly Product product;
     public frmProduct(
                         IDalProduct p_dalProduct,
                         IDalDtoProductCatName p_dalPrdCatName,
                         IDalCategory p_dalCategory,
-                        IDalSupplier p_dalSupplier, NorthwindContext p_context)
+                        IDalSupplier p_dalSupplier,
+                        frmCategories p_frmCat,
+                        frmProdCatSup p_frmCatSup,
+                        frmSuppliers p_frmSup,
+                        Product p_product)
     {
         dalProduct = p_dalProduct;          //new DalProduct(context);
         dalCategory = p_dalCategory;        //new DalCategory(context);
         dalSupplier = p_dalSupplier;        //new DalSupplier(context);
         dalPrdCatName = p_dalPrdCatName;    //new DalDtoProductCatName(context);
-        context = p_context;
+        frmCat = p_frmCat;
+        frmCatSup = p_frmCatSup;
+        frmSup = p_frmSup;
+        product = p_product;
         InitializeComponent();
     }
     private void frmProduct_Load(object sender, EventArgs e)
@@ -77,16 +87,14 @@ public partial class frmProduct : Form
     }
     private async void btnEkle_Click(object sender, EventArgs e)
     {
-        var prd = new Product();
-        await CUDEntity(CUDType.Insert, prd);
+        await CUDEntity(CUDType.Insert, product);
         DgwFormat(dgwProducts);
         MessageBox.Show($"{nameof(Product)} inserted");
         btnTumu_Click(null, null);
     }
     private async void btnGuncelle_Click(object sender, EventArgs e)
     {
-        var prd = new Product();
-        await CUDEntity(CUDType.Update, prd);
+        await CUDEntity(CUDType.Update, product);
         DgwFormat(dgwProducts);
         MessageBox.Show($"{nameof(Product)} modified");
         btnTumu_Click(null, null);
@@ -94,8 +102,7 @@ public partial class frmProduct : Form
     private async void btnSil_Click(object sender, EventArgs e)
     {
         if (dgwProducts.CurrentRow == null) return;
-        var prd = new Product();
-        await CUDEntity(CUDType.Delete, prd);
+        await CUDEntity(CUDType.Delete, product);
         DgwFormat(dgwProducts);
         MessageBox.Show($"{nameof(Product)} deleted");
         satir--;
@@ -158,7 +165,7 @@ public partial class frmProduct : Form
     private void CUDControl(object sender = null)
     {
         var button = (Button)sender;
-        if (button == null || context == null) return;
+        if (button == null) return;
         btnEkle.Enabled = true;
         btnYeni.Enabled = true;
         btnSil.Enabled = true;
@@ -192,23 +199,11 @@ public partial class frmProduct : Form
         dgwProducts.DataSource = ProductIncludeData().ToList();
         DgwFormat(dgwProducts);
         txtAra.Clear();
-        dgwProducts.CurrentCell = dgwProducts.Rows[satir].Cells[1];
+        dgwProducts.CurrentCell = dgwProducts.Rows[satir-1].Cells[1];
     }
-    private void btnCategories_Click(object sender, EventArgs e)
-    {
-        var frmOpen = new frmCategories();
-        frmOpen.Show();
-    }
-    private void btnSupplier_Click(object sender, EventArgs e)
-    {
-        var frmOpen = new frmSuppliers();
-        frmOpen.Show();
-    }
-    private void btnDTO_Click(object sender, EventArgs e)
-    {
-        var frmOpen = new frmProdCatSup();
-        frmOpen.Show();
-    }
+    private void btnCategories_Click(object sender, EventArgs e) => frmCat.Show();
+    private void btnSupplier_Click(object sender, EventArgs e) =>frmSup.Show();
+    private void btnDTO_Click(object sender, EventArgs e) => frmCatSup.Show();
     public void DgwFormat(DataGridView dgw)
     {
         int satirNo = 1;
