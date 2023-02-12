@@ -16,14 +16,13 @@ public partial class frmProduct : Form
                         IDalProduct p_dalProduct,
                         IDalDtoProductCatName p_dalPrdCatName,
                         IDalCategory p_dalCategory,
-                        IDalSupplier p_dalSupplier,
-                        NorthwindContext p_context)
+                        IDalSupplier p_dalSupplier, NorthwindContext p_context)
     {
-        context = p_context;
         dalProduct = p_dalProduct;          //new DalProduct(context);
         dalCategory = p_dalCategory;        //new DalCategory(context);
         dalSupplier = p_dalSupplier;        //new DalSupplier(context);
         dalPrdCatName = p_dalPrdCatName;    //new DalDtoProductCatName(context);
+        context = p_context;
         InitializeComponent();
     }
     private void frmProduct_Load(object sender, EventArgs e)
