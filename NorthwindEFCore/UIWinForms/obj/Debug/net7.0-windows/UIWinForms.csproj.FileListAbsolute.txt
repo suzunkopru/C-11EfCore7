@@ -122,3 +122,7 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\obj\Debug\net7.0-windows\refint
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\obj\Debug\net7.0-windows\UIWinForms.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\obj\Debug\net7.0-windows\UIWinForms.genruntimeconfig.cache
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\obj\Debug\net7.0-windows\ref\UIWinForms.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\AutoMapper.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\Core.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\Core.pdb

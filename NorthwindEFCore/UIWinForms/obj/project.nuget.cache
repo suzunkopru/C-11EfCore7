@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ifQ5Y5ZeYkIz7PlgbdjjN6Lk07Wp0dh+B2kaybf43x2O46MMAVAjHFp7Qt0v8CeHG72lfYzkO5zox8zuSIyt/A==",
+  "dgSpecHash": "zsdGPYNIHzRFQNZtQUukEAFvf6u94KUcLR4U5Gct1GPJPcUJp0vIBoZct9zNMP0ald+9Od2kmGD662j/e39SjQ==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIWinForms\\UIWinForms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suzunkopru\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\suzunkopru\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\suzunkopru\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\suzunkopru\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\suzunkopru\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\suzunkopru\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\suzunkopru\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\suzunkopru\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

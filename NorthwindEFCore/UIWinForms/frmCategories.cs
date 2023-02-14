@@ -1,8 +1,10 @@
-﻿using static UIWinForms.GridFormat;
+﻿using AutoMapper;
+using static UIWinForms.GridFormat;
 namespace UIWinForms;
 public partial class frmCategories : Form
 {
     private readonly IDalCategory dalCategory;
+    IMapper mapper;
     public frmCategories(IDalCategory p_dalCategory)
     {
         InitializeComponent();
@@ -12,7 +14,7 @@ public partial class frmCategories : Form
     private void frmCategories_Load(object sender, EventArgs e)
     {
         DgwFormat(dgwCategories);
-        dgwCategories.DataSource = dalCategory.GetAll().ToList();
+        dgwCategories.DataSource = mapper.Map<List<Category>>(dalCategory.GetAll());
         dgwCategories.AutoResizeRows();
     }
 }

@@ -7,7 +7,6 @@ public partial class frmProdCatSup : Form
         InitializeComponent();
         dalVwProdCatSup = p_dalVwProdCatSup;
     }
-
     private void frmProdCatSup_Load(object sender, EventArgs e)
     {
         dgwProdCatSup.DataSource = dalVwProdCatSup.GetAll().ToList();

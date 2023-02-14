@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIBlazor", "UIBlazor\UIBlazor.csproj", "{2F31EFFB-39CB-4580-A80D-4C17FA628FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIWinForms", "UIWinForms\UIWinForms.csproj", "{95D1656C-A8DB-4CBB-BC34-F357444E7045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIWinForms", "UIWinForms\UIWinForms.csproj", "{95D1656C-A8DB-4CBB-BC34-F357444E7045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B91D5A06-4A48-4922-92D6-09B950AA21A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{95D1656C-A8DB-4CBB-BC34-F357444E7045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D1656C-A8DB-4CBB-BC34-F357444E7045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D1656C-A8DB-4CBB-BC34-F357444E7045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91D5A06-4A48-4922-92D6-09B950AA21A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91D5A06-4A48-4922-92D6-09B950AA21A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91D5A06-4A48-4922-92D6-09B950AA21A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91D5A06-4A48-4922-92D6-09B950AA21A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

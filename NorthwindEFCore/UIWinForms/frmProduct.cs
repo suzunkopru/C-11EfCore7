@@ -1,3 +1,5 @@
+using AutoMapper;
+using Core.Dtos;
 namespace UIWinForms;
 public partial class frmProduct : Form
 {
@@ -12,6 +14,7 @@ public partial class frmProduct : Form
     private readonly IDalShipper dalShipper;
     private readonly IDalTerritory dalTerritory;
     private readonly IDalVwProdCatSup dalVwProdCatSup;
+    public readonly IMapper mapper;
     private readonly frmCategories frmCat;
     private readonly frmProdCatSup frmCatSup;
     private readonly frmSuppliers frmSup;
@@ -25,7 +28,8 @@ public partial class frmProduct : Form
                         frmCategories p_frmCat,
                         frmProdCatSup p_frmCatSup,
                         frmSuppliers p_frmSup,
-                        Product p_product)
+                        Product p_product,
+                        IMapper p_mapper)
     {
         dalProduct = p_dalProduct;          //new DalProduct(context);
         dalCategory = p_dalCategory;        //new DalCategory(context);
@@ -36,11 +40,13 @@ public partial class frmProduct : Form
         frmCatSup = p_frmCatSup;
         frmSup = p_frmSup;
         product = p_product;
+        mapper = p_mapper;
         InitializeComponent();
     }
     private void frmProduct_Load(object sender, EventArgs e)
     {
-        dgwProducts.DataSource = ProductIncludeData().ToList();
+        //var dtoProd = mapper.Map<List<DtoProduct>>(ProductIncludeData().ToList());
+        dgwProducts.DataSource = mapper.Map<List<DtoProduct>>(ProductIncludeData());
         DgwFormat(dgwProducts);
         dgwProductCatName.DataSource =
             dalPrdCatName.GetProductsCatName(0).ToList();
@@ -54,14 +60,14 @@ public partial class frmProduct : Form
                   .Include(x => x.Supplier);
     private void CmbSupLoad()
     {
-        cmbSupplierID.DataSource = dalSupplier.GetAll().ToList();
+        cmbSupplierID.DataSource = mapper.Map<List<DtoSupplier>>(dalSupplier.GetAll());
         cmbSupplierID.DisplayMember = nameof(Supplier.CompanyName);
         cmbSupplierID.ValueMember = nameof(Supplier.SupplierId);
     }
     private void CmbCatLoad()
     {
-        cmbCategoryID.DataSource = dalCategory.GetAll().ToList();
-        cmbCategories.DataSource = dalCategory.GetAll().ToList();
+        cmbCategoryID.DataSource = mapper.Map<List<Category>>(dalCategory.GetAll());
+        cmbCategories.DataSource = mapper.Map<List<Category>>(dalCategory.GetAll());
         cmbCategories.DisplayMember = nameof(Category.CategoryName);
         cmbCategoryID.DisplayMember = nameof(Category.CategoryName);
         cmbCategories.ValueMember = nameof(Category.CategoryId);
@@ -76,17 +82,16 @@ public partial class frmProduct : Form
                                         out var catID);
         if (isCatID)
             dgwProducts.DataSource =
-                dalPrdCatName.GetProductsByCategory(catID)
-                                                    .ToList();
+            mapper.Map<List<Product>>(dalPrdCatName.GetProductsByCategory(catID)); 
     }
     private void txtAra_TextChanged(object sender, EventArgs e)
     {
         if (sender is TextBox /*{ TextLength: > 2 }*/ txt)
             dgwProducts.DataSource =
                 string.IsNullOrWhiteSpace(txt.Text)
-                ? ProductIncludeData().ToList()
-                : ProductIncludeData().Where(x => x.ProductName
-                .Contains(txt.Text)).ToList();
+                ? mapper.Map<List<DtoProduct>>(ProductIncludeData())
+                : mapper.Map<List<DtoProduct>>(ProductIncludeData().Where(x => x.ProductName
+                .Contains(txt.Text)));
     }
     private async void btnEkle_Click(object sender, EventArgs e)
     {
@@ -197,7 +202,7 @@ public partial class frmProduct : Form
     private void btnTumu_Click(object sender, EventArgs e)
     {
         int satir = dgwProducts.RowCount - 1;
-        dgwProducts.DataSource = ProductIncludeData().ToList();
+        dgwProducts.DataSource = mapper.Map<List<DtoProduct>>(ProductIncludeData().ToList());
         DgwFormat(dgwProducts);
         txtAra.Clear();
         Button? btn = sender as Button;

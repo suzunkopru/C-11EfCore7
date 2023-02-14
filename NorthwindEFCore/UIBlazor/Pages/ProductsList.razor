@@ -2,7 +2,7 @@
 @using DataAccess.Classes;
 @using DataAccess.Interfaces;
 @using Entities.Models
-@inject DalProduct _dalProduct
+@inject IDalProduct _dalProduct
 <PageTitle>Products List</PageTitle>
 <DxGrid Data="@Data"
         AllowColumnDragDrop=true

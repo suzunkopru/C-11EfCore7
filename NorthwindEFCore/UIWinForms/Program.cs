@@ -1,10 +1,13 @@
 using Autofac;
+using Core.Helper;
 namespace UIWinForms;
 internal static class Program
 {
     [STAThread]
     static void Main()
     {
+        var mapping = new MappingProfiles();
+        var map = mapping.MatcMap();
         ApplicationConfiguration.Initialize();
         Application.Run(new frmProduct(
             Configure().Resolve<IDalProduct>(),
@@ -15,6 +18,7 @@ internal static class Program
             Configure().Resolve<frmCategories>(),
             Configure().Resolve<frmProdCatSup>(),
             Configure().Resolve<frmSuppliers>(),
-            Configure().Resolve<Product>()));
+            Configure().Resolve<Product>(),
+            new MappingProfiles().MatcMap()));
     }
 }
