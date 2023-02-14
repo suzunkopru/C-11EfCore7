@@ -4,7 +4,6 @@ namespace UIWinForms;
 public partial class frmCategories : Form
 {
     private readonly IDalCategory dalCategory;
-    IMapper mapper;
     public frmCategories(IDalCategory p_dalCategory)
     {
         InitializeComponent();
