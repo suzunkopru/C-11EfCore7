@@ -20,5 +20,7 @@ internal static class Program
             Configure().Resolve<frmSuppliers>(),
             Configure().Resolve<Product>(),
             new MappingProfiles().MatcMap()));
+        Application.Run(new frmCategories(Configure().Resolve<IDalCategory>(),
+            new MappingProfiles().MatcMap()));
     }
 }
