@@ -1,5 +1,6 @@
 using Autofac;
 using Core.Helper;
+
 namespace UIWinForms;
 internal static class Program
 {
@@ -15,12 +16,10 @@ internal static class Program
             Configure().Resolve<IDalCategory>(),
             Configure().Resolve<IDalSupplier>(),
             Configure().Resolve<IDalVwProdCatSup>(),
-            Configure().Resolve<frmCategories>(),
-            Configure().Resolve<frmProdCatSup>(),
-            Configure().Resolve<frmSuppliers>(),
+            //Configure().Resolve<frmCategories>(),
+            //Configure().Resolve<frmProdCatSup>(),
+            //Configure().Resolve<frmSuppliers>(),
             Configure().Resolve<Product>(),
-            new MappingProfiles().MatcMap()));
-        Application.Run(new frmCategories(Configure().Resolve<IDalCategory>(),
             new MappingProfiles().MatcMap()));
     }
 }

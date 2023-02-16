@@ -14,7 +14,7 @@ public partial class frmProduct : Form
     private readonly IDalShipper dalShipper;
     private readonly IDalTerritory dalTerritory;
     private readonly IDalVwProdCatSup dalVwProdCatSup;
-    public readonly IMapper mapper;
+    private readonly IMapper mapper;
     private readonly frmCategories frmCat;
     private readonly frmProdCatSup frmCatSup;
     private readonly frmSuppliers frmSup;
@@ -25,9 +25,9 @@ public partial class frmProduct : Form
                         IDalCategory p_dalCategory,
                         IDalSupplier p_dalSupplier,
                         IDalVwProdCatSup p_dalVwProdCatSup,
-                        frmCategories p_frmCat,
-                        frmProdCatSup p_frmCatSup,
-                        frmSuppliers p_frmSup,
+                        //frmCategories p_frmCat,
+                        //frmProdCatSup p_frmCatSup,
+                        //frmSuppliers p_frmSup,
                         Product p_product,
                         IMapper p_mapper)
     {
@@ -36,9 +36,9 @@ public partial class frmProduct : Form
         dalSupplier = p_dalSupplier;        //new DalSupplier(context);
         dalPrdCatName = p_dalPrdCatName;    //new DalDtoProductCatName(context);
         dalVwProdCatSup = p_dalVwProdCatSup;
-        frmCat = p_frmCat;
-        frmCatSup = p_frmCatSup;
-        frmSup = p_frmSup;
+        frmCat = new frmCategories(p_dalCategory, p_mapper); //p_frmCat;
+        frmCatSup = new frmProdCatSup(p_dalVwProdCatSup, p_mapper); //p_frmCatSup;
+        frmSup = new frmSuppliers(p_dalSupplier, p_mapper); //p_frmSup;
         product = p_product;
         mapper = p_mapper;
         InitializeComponent();
@@ -66,12 +66,12 @@ public partial class frmProduct : Form
     }
     private void CmbCatLoad()
     {
-        cmbCategoryID.DataSource = mapper.Map<List<Category>>(dalCategory.GetAll());
-        cmbCategories.DataSource = mapper.Map<List<Category>>(dalCategory.GetAll());
-        cmbCategories.DisplayMember = nameof(Category.CategoryName);
-        cmbCategoryID.DisplayMember = nameof(Category.CategoryName);
-        cmbCategories.ValueMember = nameof(Category.CategoryId);
-        cmbCategoryID.ValueMember = nameof(Category.CategoryId);
+        cmbCategoryID.DataSource = mapper.Map<List<DtoCategory>>(dalCategory.GetAll());
+        cmbCategories.DataSource = mapper.Map<List<DtoCategory>>(dalCategory.GetAll());
+        cmbCategories.DisplayMember = nameof(DtoCategory.CategoryName);
+        cmbCategoryID.DisplayMember = nameof(DtoCategory.CategoryName);
+        cmbCategories.ValueMember = nameof(DtoCategory.CategoryId);
+        cmbCategoryID.ValueMember = nameof(DtoCategory.CategoryId);
     }
     private void cmbCategories_SelectionChangeCommitted
                             (object sender, EventArgs e)
@@ -82,15 +82,15 @@ public partial class frmProduct : Form
                                         out var catID);
         if (isCatID)
             dgwProducts.DataSource =
-            mapper.Map<List<Product>>(dalPrdCatName.GetProductsByCategory(catID)); 
+            mapper.Map<List<Product>>(dalPrdCatName.GetProductsByCategory(catID));
     }
     private void txtAra_TextChanged(object sender, EventArgs e)
     {
         if (sender is TextBox /*{ TextLength: > 2 }*/ txt)
             dgwProducts.DataSource =
                 string.IsNullOrWhiteSpace(txt.Text)
-                ? mapper.Map<List<DtoProduct>>(ProductIncludeData())
-                : mapper.Map<List<DtoProduct>>(ProductIncludeData().Where(x => x.ProductName
+                ? mapper.Map<List<Core.Dtos.DtoProduct>>(ProductIncludeData())
+                : mapper.Map<List<Core.Dtos.DtoProduct>>(ProductIncludeData().Where(x => x.ProductName
                 .Contains(txt.Text)));
     }
     private async void btnEkle_Click(object sender, EventArgs e)
@@ -101,6 +101,10 @@ public partial class frmProduct : Form
         btnTumu_Click(sender as Button, null);
     }
     int row;
+    private IDalDtoProductCatName dalDtoProductCatName;
+    private frmProdCatSup frmProdCatSup;
+    private frmSuppliers frmSuppliers;
+
     private async void btnGuncelle_Click(object sender, EventArgs e)
     {
         row = dgwProducts.CurrentRow.Cells[0].RowIndex;
@@ -202,7 +206,7 @@ public partial class frmProduct : Form
     private void btnTumu_Click(object sender, EventArgs e)
     {
         int satir = dgwProducts.RowCount - 1;
-        dgwProducts.DataSource = mapper.Map<List<DtoProduct>>(ProductIncludeData().ToList());
+        dgwProducts.DataSource = mapper.Map<List<Core.Dtos.DtoProduct>>(ProductIncludeData().ToList());
         DgwFormat(dgwProducts);
         txtAra.Clear();
         Button? btn = sender as Button;

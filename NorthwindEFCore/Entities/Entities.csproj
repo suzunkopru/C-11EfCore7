@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Partials\**" />
+    <EmbeddedResource Remove="Partials\**" />
+    <None Remove="Partials\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Context\" />
   </ItemGroup>
 

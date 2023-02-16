@@ -13,3 +13,5 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\Core\obj\Debug\net7.0\Core.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Core\obj\Debug\net7.0\refint\Core.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Core\obj\Debug\net7.0\Core.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Core\obj\Debug\net7.0\ref\Core.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\Core\bin\Debug\net7.0\DataAccess.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\Core\bin\Debug\net7.0\DataAccess.pdb

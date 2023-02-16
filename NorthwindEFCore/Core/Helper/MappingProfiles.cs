@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Core.Dtos;
 using Entities.Models;
+
 namespace Core.Helper;
 public class MappingProfiles : Profile
 {

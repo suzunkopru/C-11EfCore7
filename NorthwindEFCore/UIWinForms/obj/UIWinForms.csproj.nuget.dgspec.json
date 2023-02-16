@@ -29,6 +29,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj"
+              },
               "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj": {
                 "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj"
               }
@@ -48,6 +51,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
