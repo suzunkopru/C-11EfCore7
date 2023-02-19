@@ -2,7 +2,6 @@
 using DataAccess.Interfaces;
 using Entities.DTOs;
 using Entities.Models;
-
 namespace Business.Classes;
 public class ServiceDtoProductCatName
              : Service<Product>, IServiceDtoProductCatName
