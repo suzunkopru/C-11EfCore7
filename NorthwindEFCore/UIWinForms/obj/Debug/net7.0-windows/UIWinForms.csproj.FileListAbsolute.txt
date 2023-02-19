@@ -128,3 +128,5 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\Core.d
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\Core.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\Castle.Core.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\Business.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIWinForms\bin\Debug\net7.0-windows\Business.pdb

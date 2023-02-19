@@ -1,25 +1,25 @@
 ﻿using Autofac;
 using AutoMapper;
-using Core.UnitOfWork;
-
+using Business.Classes;
+using Business.Interfaces;
 namespace UIWinForms;
 public static class AutoFacImp
 {
     public static IContainer Configure()
     {
         ContainerBuilder builder = new();
-        builder.RegisterType<DalDtoProductCatName>()
-                        .As<IDalDtoProductCatName>();
-        builder.RegisterType<DalCategory>().As<IDalCategory>();
-        builder.RegisterType<DalProduct>().As<IDalProduct>();
-        builder.RegisterType<DalSupplier>().As<IDalSupplier>();
-        builder.RegisterType<DalCustomer>().As<IDalCustomer>();
-        builder.RegisterType<DalEmployee>().As<IDalEmployee>();
-        builder.RegisterType<DalOrder>().As<IDalOrder>();
-        builder.RegisterType<DalRegion>().As<IDalRegion>();
-        builder.RegisterType<DalShipper>().As<IDalShipper>();
-        builder.RegisterType<DalTerritory>().As<IDalTerritory>();
-        builder.RegisterType<DalVwProdCatSup>().As<IDalVwProdCatSup>();
+        builder.RegisterType<ServiceDtoProductCatName>()
+                        .As<IServiceDtoProductCatName>();
+        builder.RegisterType<ServiceCategory>().As<IServiceCategory>();
+        builder.RegisterType<ServiceProduct>().As<IServiceProduct>();
+        builder.RegisterType<ServiceSupplier>().As<IServiceSupplier>();
+        builder.RegisterType<ServiceCustomer>().As<IServiceCustomer>();
+        builder.RegisterType<ServiceEmployee>().As<IServiceEmployee>();
+        builder.RegisterType<ServiceOrder>().As<IServiceOrder>();
+        builder.RegisterType<ServiceRegion>().As<IServiceRegion>();
+        builder.RegisterType<ServiceShipper>().As<IServiceShipper>();
+        builder.RegisterType<ServiceTerritory>().As<IServiceTerritory>();
+        builder.RegisterType<ServiceVwProdCatSup>().As<IServiceVwProdCatSup>();
         builder.RegisterType<Mapper>().As<IMapper>();    
         builder.RegisterType<NorthwindContext>();
         builder.RegisterType<frmCategories>();

@@ -41,7 +41,7 @@ public class EntityRepo<T> : IEntityRepo<T>
         => await CUD(entity, EntityState.Modified);
     public async Task RemoveAsync(T entity)
         => await CUD(entity, EntityState.Deleted);
-    public async Task RemoveRange(IQueryable<T> entities)
+    public async Task RemoveRangeAsync(IQueryable<T> entities)
         => entities.ToList().ForEach(async x =>await RemoveAsync(x));
     //=> await entities.ForEachAsync(async x => await RemoveAsync(x));
 }

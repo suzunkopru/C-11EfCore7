@@ -4,6 +4,69 @@
     "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\UIWinForms\\UIWinForms.csproj": {}
   },
   "projects": {
+    "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\suzunkopru\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\suzunkopru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/MVNBP3oVrVFkycOUs4KVkyiJba7vkZxdtPhAq7jhHfglxV9OwK/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -244,11 +307,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
+              "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Business\\Business.csproj": {
+                "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Business\\Business.csproj"
+              },
               "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Core\\Core.csproj": {
                 "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Core\\Core.csproj"
-              },
-              "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj"
               },
               "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj": {
                 "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj"

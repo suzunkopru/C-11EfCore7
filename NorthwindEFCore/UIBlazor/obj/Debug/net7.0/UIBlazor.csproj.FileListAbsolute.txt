@@ -205,3 +205,5 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\refint\UIBlazor.
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.genruntimeconfig.cache
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\ref\UIBlazor.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Castle.Core.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll

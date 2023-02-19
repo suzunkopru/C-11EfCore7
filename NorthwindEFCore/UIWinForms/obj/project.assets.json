@@ -1132,6 +1132,20 @@
           }
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataAccess": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3441,6 +3455,11 @@
         "version.txt"
       ]
     },
+    "Business/1.0.0": {
+      "type": "project",
+      "path": "../Business/Business.csproj",
+      "msbuildProject": "../Business/Business.csproj"
+    },
     "Core/1.0.0": {
       "type": "project",
       "path": "../Core/Core.csproj",
@@ -3461,8 +3480,8 @@
     "net7.0-windows7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "Autofac >= 6.5.0",
+      "Business >= 1.0.0",
       "Core >= 1.0.0",
-      "DataAccess >= 1.0.0",
       "Entities >= 1.0.0"
     ]
   },
@@ -3494,11 +3513,11 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
+            "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Business\\Business.csproj": {
+              "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Business\\Business.csproj"
+            },
             "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Core\\Core.csproj": {
               "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Core\\Core.csproj"
-            },
-            "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj"
             },
             "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj": {
               "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj"
