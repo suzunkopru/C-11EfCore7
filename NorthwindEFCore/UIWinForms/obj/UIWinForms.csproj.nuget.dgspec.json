@@ -29,9 +29,6 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\DataAccess\\DataAccess.csproj"
-              },
               "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj": {
                 "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj"
               }
@@ -102,6 +99,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Core\\Core.csproj": {
+                "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Core\\Core.csproj"
+              },
               "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj": {
                 "projectPath": "D:\\GitHub\\C-11EfCore7\\NorthwindEFCore\\Entities\\Entities.csproj"
               }
@@ -120,7 +120,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
@@ -182,17 +182,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.0.3, )"
             }
           },
           "imports": [

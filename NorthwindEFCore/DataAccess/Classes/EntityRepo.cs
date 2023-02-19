@@ -1,4 +1,5 @@
-﻿using DataAccess.Interfaces;
+﻿using Core.UnitOfWork;
+using DataAccess.Interfaces;
 using Entities.Context;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
@@ -8,8 +9,13 @@ public class EntityRepo<T> : IEntityRepo<T>
 {
     private readonly NorthwindContext _context;
     private readonly DbSet<T> _dbSet;
+    private readonly IUnitOfWork unitOfWork;
     public EntityRepo(NorthwindContext p_context)
-        => _dbSet = (_context = p_context).Set<T>();
+    {
+        unitOfWork = new UnitOfWork(p_context);
+        _dbSet = (_context = p_context).Set<T>();
+    }
+
     public IQueryable<T> GetAll() => _dbSet.AsNoTracking();
     public IQueryable<T> Where
         (Expression<Func<T, bool>> predicate)
@@ -21,7 +27,8 @@ public class EntityRepo<T> : IEntityRepo<T>
     private async Task CUD(T entity, EntityState state)
     {
         _context.Entry(entity).State = state;
-        await _context.SaveChangesAsync();
+        //await _context.SaveChangesAsync();
+        unitOfWork.CommitAsync();
         _context.Entry(entity).State = EntityState.Detached;
     }
     public async Task AddAsync(T entity)

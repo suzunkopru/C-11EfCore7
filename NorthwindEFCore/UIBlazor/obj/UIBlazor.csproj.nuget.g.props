@@ -13,7 +13,7 @@
     <SourceRoot Include="C:\Users\suzunkopru\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.2\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.2\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.3\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.3\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)devexpress.blazor.themes\22.2.4\buildTransitive\DevExpress.Blazor.Themes.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor.themes\22.2.4\buildTransitive\DevExpress.Blazor.Themes.props')" />
     <Import Project="$(NuGetPackageRoot)devexpress.blazor\22.2.4\buildTransitive\net5.0\DevExpress.Blazor.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\22.2.4\buildTransitive\net5.0\DevExpress.Blazor.props')" />
   </ImportGroup>

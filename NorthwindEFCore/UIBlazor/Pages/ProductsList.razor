@@ -1,8 +1,11 @@
 ﻿@page "/ProductPage"
+@using AutoMapper;
+@using Core.Dtos;
 @using DataAccess.Classes;
 @using DataAccess.Interfaces;
 @using Entities.Models
 @inject IDalProduct _dalProduct
+@inject IMapper mapper
 <PageTitle>Products List</PageTitle>
 <DxGrid Data="@Data"
         AllowColumnDragDrop=true
@@ -86,7 +89,7 @@
             order: nameof(Product.UnitsOnOrder),
             disc: nameof(Product.Discontinued),
             @wdt: 150 + "px", pSize: 10);
-    IQueryable<Product> Data { get; set; }
+    List<DtoProduct> Data { get; set; }
     protected override void OnInitialized()
-        => Data = @_dalProduct.GetAll();
+        => Data = mapper.Map<List<DtoProduct>>(_dalProduct.GetAll());
 }

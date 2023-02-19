@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using AutoMapper;
+using Core.UnitOfWork;
 
 namespace UIWinForms;
 public static class AutoFacImp

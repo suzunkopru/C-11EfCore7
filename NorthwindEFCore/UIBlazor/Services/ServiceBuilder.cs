@@ -1,4 +1,5 @@
-﻿using DataAccess.Classes;
+﻿using Core.Helper;
+using DataAccess.Classes;
 using DataAccess.Interfaces;
 using Entities.Context;
 using UIBlazor.Data;
@@ -14,6 +15,7 @@ public static class ServiceBuilder
         builder.Services.AddDbContext<NorthwindContext>();
         builder.Services.AddScoped<IDalCategory, DalCategory>();
         builder.Services.AddScoped<IDalProduct, DalProduct>();
+        builder.Services.AddAutoMapper(typeof(MappingProfiles));
         builder.Services.AddDevExpressBlazor();
         return builder.Build();
     }
