@@ -1,8 +1,3 @@
-D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
-D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
-D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
-D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\bin\Debug\net7.0\Business.deps.json
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\bin\Debug\net7.0\Business.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\bin\Debug\net7.0\Business.pdb
@@ -12,6 +7,11 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\bin\Debug\net7.0\Entities.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\bin\Debug\net7.0\DataAccess.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\bin\Debug\net7.0\Entities.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\bin\Debug\net7.0\Core.pdb
+D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
+D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
+D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
+D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.csproj.CopyComplete
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\Business.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\Business\obj\Debug\net7.0\refint\Business.dll

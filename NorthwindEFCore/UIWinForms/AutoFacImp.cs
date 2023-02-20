@@ -2,14 +2,19 @@
 using AutoMapper;
 using Business.Classes;
 using Business.Interfaces;
+using DataAccess.Interfaces;
+
 namespace UIWinForms;
 public static class AutoFacImp
 {
     public static IContainer Configure()
     {
         ContainerBuilder builder = new();
+        builder.RegisterGeneric(typeof(EntityRepo<>)).As(typeof(IEntityRepo<>));
         builder.RegisterType<ServiceDtoProductCatName>()
                         .As<IServiceDtoProductCatName>();
+        builder.RegisterType<DalDtoProductCatName>()
+                        .As<IDalDtoProductCatName>();
         builder.RegisterType<ServiceCategory>().As<IServiceCategory>();
         builder.RegisterType<ServiceProduct>().As<IServiceProduct>();
         builder.RegisterType<ServiceSupplier>().As<IServiceSupplier>();

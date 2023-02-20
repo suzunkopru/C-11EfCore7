@@ -99,14 +99,6 @@ D:\GitHub\CSharp11\Projelerim\Kitap\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Da
 D:\GitHub\CSharp11\Projelerim\Kitap\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Entities.dll
 D:\GitHub\CSharp11\Projelerim\Kitap\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\DataAccess.pdb
 D:\GitHub\CSharp11\Projelerim\Kitap\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Entities.pdb
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.csproj.AssemblyReference.cache
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.AssemblyInfoInputs.cache
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.AssemblyInfo.cs
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.csproj.CoreCompileInputs.cache
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.MvcApplicationPartsAssemblyInfo.cache
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.RazorAssemblyInfo.cache
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.RazorAssemblyInfo.cs
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\appsettings.Development.json
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\appsettings.json
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\UIBlazor.staticwebassets.runtime.json
@@ -120,6 +112,7 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\AutoMapper.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Azure.Core.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Azure.Identity.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Castle.Core.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\DevExpress.Blazor.v22.2.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\DevExpress.Data.v22.2.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\DevExpress.Drawing.v22.2.dll
@@ -131,6 +124,7 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.Bcl.As
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.Identity.Client.dll
@@ -188,6 +182,14 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Entities.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Core.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\DataAccess.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Entities.pdb
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.csproj.AssemblyReference.cache
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.AssemblyInfoInputs.cache
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.AssemblyInfo.cs
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.csproj.CoreCompileInputs.cache
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.RazorAssemblyInfo.cache
+D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.RazorAssemblyInfo.cs
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\staticwebassets\msbuild.UIBlazor.Microsoft.AspNetCore.StaticWebAssets.props
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\staticwebassets\msbuild.build.UIBlazor.props
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UIBlazor.props
@@ -205,5 +207,3 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\refint\UIBlazor.
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\UIBlazor.genruntimeconfig.cache
 D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\obj\Debug\net7.0\ref\UIBlazor.dll
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Castle.Core.dll
-D:\GitHub\C-11EfCore7\NorthwindEFCore\UIBlazor\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll

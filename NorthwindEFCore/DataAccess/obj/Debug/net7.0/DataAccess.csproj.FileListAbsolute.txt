@@ -16,7 +16,9 @@ D:\GitHub\CSharp11\Projelerim\Kitap\NorthwindEFCore\DataAccess\obj\Debug\net7.0\
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\DataAccess.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\Core.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\Entities.dll
+D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\Core.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\Entities.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
@@ -28,5 +30,3 @@ D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\obj\Debug\net7.0\DataAccess.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\obj\Debug\net7.0\DataAccess.pdb
 D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
-D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\Core.dll
-D:\GitHub\C-11EfCore7\NorthwindEFCore\DataAccess\bin\Debug\net7.0\Core.pdb
