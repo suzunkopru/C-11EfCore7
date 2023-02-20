@@ -1,10 +1,9 @@
 ﻿@page "/ProductPage"
 @using AutoMapper;
+@using Business.Interfaces;
 @using Core.Dtos;
-@using DataAccess.Classes;
-@using DataAccess.Interfaces;
 @using Entities.Models
-@inject IDalProduct _dalProduct
+@inject IServiceProduct _serviceProduct
 @inject IMapper mapper
 <PageTitle>Products List</PageTitle>
 <DxGrid Data="@Data"
@@ -91,5 +90,5 @@
             @wdt: 150 + "px", pSize: 10);
     List<DtoProduct> Data { get; set; }
     protected override void OnInitialized()
-        => Data = mapper.Map<List<DtoProduct>>(_dalProduct.GetAll());
+        => Data = mapper.Map<List<DtoProduct>>(_serviceProduct.GetAll());
 }

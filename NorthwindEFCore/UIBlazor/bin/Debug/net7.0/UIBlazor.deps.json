@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "UIBlazor/1.0.0": {
         "dependencies": {
+          "Business": "1.0.0",
           "Core": "1.0.0",
-          "DataAccess": "1.0.0",
           "DevExpress.Blazor": "22.2.4",
           "Entities": "1.0.0"
         },
@@ -897,6 +897,15 @@
           }
         }
       },
+      "Business/1.0.0": {
+        "dependencies": {
+          "DataAccess": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "runtime": {
+          "Business.dll": {}
+        }
+      },
       "Core/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
@@ -1613,6 +1622,11 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Core/1.0.0": {
       "type": "project",
