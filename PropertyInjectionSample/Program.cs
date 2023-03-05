@@ -9,7 +9,7 @@ public interface ISql
 {
     public string WhoAreYou();
 }
-public class Sql : ISql
+public class Sql: ISql
 {
     public string WhoAreYou() => "Merhaba SQL Server";
 }
