@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using static System.Console;
+using static System.DateTime;
 static int AracYasTip(IArac arac, out Type type, int model)
 {
     type = arac.GetType();
