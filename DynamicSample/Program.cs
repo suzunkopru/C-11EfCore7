@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 using static System.Console;
-static int AracYasTip(dynamic arac, out Type type, int model)
+static int AracYasTip(IArac arac, out Type type, int model)
 {
     type = arac.GetType();
     arac.Model = model;
@@ -16,7 +16,7 @@ public enum Vites
 {
     Manuel, Otomatik
 }
-public class Araba
+public class Araba : IArac
 {
     public Color Renk { get; set; }
     public Vites Vites { get; set; }
@@ -26,4 +26,11 @@ public class Araba
 class Motor : Araba
 {
     public bool TopCase { get; set; }
+}
+public interface IArac
+{
+    public Color Renk { get; set; }
+    public Vites Vites { get; set; }
+    public int Model { get; set; }
+    public int Yas => Today.Year - Model;
 }

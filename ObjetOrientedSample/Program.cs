@@ -1,7 +1,7 @@
 ﻿namespace ObjetOrientedSample;
 using static Console;
 using static DateTime;
-public interface IKisi
+public partial interface IKisi
 {
     public string Ad { get; set; }
     public string Soyad { get; set; }
@@ -65,4 +65,9 @@ public class Program
         WriteLine($"{personel.KitleEndeks(1.78d, 99.5d)}");
         ReadLine();
     }
+}
+public partial interface IKisi
+{
+    public decimal KitleEndeks(decimal _boy, decimal _kilo);
+    public double KitleEndeks(double _boy, double _kilo);
 }

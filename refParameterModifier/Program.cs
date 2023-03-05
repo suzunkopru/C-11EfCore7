@@ -1,23 +1,23 @@
 ﻿using static System.Console;
-int Gelirler(ref int Gelir, params int[] tutar)
+int Gelirler(ref int Gelir, params int[] tutarlar)
 {
-    int tutarSum = tutar.Sum(x => Math.Abs(x));
-    Gelir += tutarSum;
-    return tutarSum;
+    int tutarlarSum = tutarlar.Sum(x => Math.Abs(x));
+    Gelir += tutarlarSum;
+    return tutarlarSum;
 }
-int Giderler(ref int Gider, params int[] tutar)
+int Giderler(ref int Gider, params int[] tutarlar)
 {
-    int tutarSum = -1 * tutar.Sum(x => Math.Abs(x));
-    Gider += tutarSum;
-    return tutarSum;
+    int tutarlarSum = -1 * tutarlar.Sum(x => Math.Abs(x));
+    Gider += tutarlarSum;
+    return tutarlarSum;
 }
-int Tutarlar(ref int karZarar, bool gelirmi,
-                                params int[] tutar)
+int GelirlerGiderler(ref int karZarar, bool gelirmi,
+                                params int[] tutarlar)
 {
     int carpan = gelirmi ? 1 : -1;
-    int tutarSum = carpan * tutar.Sum(x => Math.Abs(x));
-    karZarar += tutarSum;
-    return tutarSum;
+    int tutarlarSum = carpan * tutarlar.Sum(x => Math.Abs(x));
+    karZarar += tutarlarSum;
+    return tutarlarSum;
 }
 int KZ = 0;
 int buYil = DateTime.Today.Year;
@@ -32,8 +32,8 @@ WriteLine($"+ {gelir:0,0} {gider:0,0} = {KZ:0,0}");
 int oncekiYil = KZ;
 WriteLine(string.Concat(Enumerable.Repeat("-", 40)));
 WriteLine($"{buYil} yılı durumu");
-gelir = Tutarlar(ref KZ, true, 1_000, 200, 3_000, 400, 10_000);
-gider = Tutarlar(ref KZ, false, 1_000, 200, 3_000, 400, 500, 5000);
+gelir = GelirlerGiderler(ref KZ, true, 1_000, 200, 3_000, 400, 10_000);
+gider = GelirlerGiderler(ref KZ, false, 1_000, 200, 3_000, 400, 500, 5000);
 WriteLine($"Geliriniz: {gelir:0,0} Gideriniz: {gider:0,0}");
 WriteLine($"{(KZ > 0 ? "Kar Ettiniz:" : "Zarar Ettiniz")}");
 Write("K/Z Durumu: ");

@@ -3,7 +3,7 @@ using static System.Math;
 static string DonemBul(Aylar ay) =>
     $$"""
     {{ay}} ayı
-    {{Ceiling((decimal)ay / 3)}}. Dönem
+    {{Ceiling((decimal)ay / 3)}}. Dönem  
     --------
     """;
 WriteLine("C# 11 Raw String Literal");
