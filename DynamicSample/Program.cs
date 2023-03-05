@@ -13,7 +13,8 @@ WriteLine($"{AracYasTip(araba, out tipiNE, 2016)} yaşında {tipiNE}");
 Motor motor = new();
 WriteLine($"{AracYasTip(motor, out tipiNE, 2014)} yaşında {tipiNE}");
 ReadLine();
-public enum Vites {
+public enum Vites 
+{
     Manuel, Otomatik
 }
 public class Araba : IArac
