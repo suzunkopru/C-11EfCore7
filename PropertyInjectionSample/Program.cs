@@ -1,26 +1,18 @@
-﻿using static System.Console;
-using Unity;
-
+﻿#region Unity
 IUnityContainer container = new UnityContainer();
-var drv = container.RegisterType<ISql, Postgre>().Resolve<LetsWork>(); ;
+var drv = container.RegisterType<ISql, Postgre>().Resolve<LetsWork>();
 WriteLine(drv.WhoAreYou());
-ReadLine();
-public interface ISql
-{
-    public string WhoAreYou();
-}
-public class Sql: ISql
-{
-    public string WhoAreYou() => "Merhaba SQL Server";
-}
+#endregion Unity
 
-public class Postgre : ISql
-{
-    public string WhoAreYou() => "Merhaba Postgre SQL";
-}
-public class LetsWork : ISql
-{
-    [Dependency]
-    public ISql db { get; set; }
-    public string WhoAreYou() => db.WhoAreYou();
-}
+#region Autofac1
+var autoFac = Configure().Resolve<ISql>();
+WriteLine(autoFac.WhoAreYou());
+#endregion Autofac1
+
+#region Autofac2
+ContainerBuilder builder = new();
+var Conf = builder.RegisterType<Sql>().As<ISql>();
+var autoFac2 = builder.Build().Resolve<ISql>();
+WriteLine(autoFac2.WhoAreYou());
+#endregion Autofac2
+ReadLine();
