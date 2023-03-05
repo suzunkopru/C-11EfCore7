@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pVNS1tS4zvY4RZLQllqYD6eMgT+yfnBpz/y6NgTN1XP0zpwZOVbZyz11Jt6zpezYAOONZR4YYM4AtM63IgJHVw==",
+  "dgSpecHash": "fLlD/+uU/l8r5+xtjEZ3l11QlT+ClsFwu9dG0pL6TtZZ8fa/+L9Urir+PTKIxQ1PaIhy7X0eZ0IdTvIrCCfQFw==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\AllProjects\\BlazorOrnek1\\BlazorOrnek1.csproj",
+  "projectFilePath": "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\BlazorOrnek1\\BlazorOrnek1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suzunkopru\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],

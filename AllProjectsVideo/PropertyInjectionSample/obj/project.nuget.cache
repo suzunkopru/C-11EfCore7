@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "TzatSMQfq9GTjTtTGs2yWALDixo/pMyMe5fqyP+7Gmt//Lu9LD9DLX+xgiNt2PSoXlrTCP5WC1riQA370EYRvQ==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\C-11EfCore7\\AllConsoleProjects\\PropertyInjectionSample\\PropertyInjectionSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\unity.abstractions\\5.11.7\\unity.abstractions.5.11.7.nupkg.sha512",
+    "C:\\Users\\suzunkopru\\.nuget\\packages\\unity.container\\5.11.11\\unity.container.5.11.11.nupkg.sha512"
+  ],
+  "logs": []
+}

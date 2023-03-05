@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\AllProjects\\MethodsOutModifier\\MethodsOutModifier.csproj",
+      "projectUniqueName": "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\MethodsOutModifier\\MethodsOutModifier.csproj",
       "projectName": "MethodsOutModifier",
-      "projectPath": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\AllProjects\\MethodsOutModifier\\MethodsOutModifier.csproj",
+      "projectPath": "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\MethodsOutModifier\\MethodsOutModifier.csproj",
       "packagesPath": "C:\\Users\\suzunkopru\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\CSharp11\\Projelerim\\Kitap\\AllProjects\\MethodsOutModifier\\obj\\",
+      "outputPath": "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\MethodsOutModifier\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suzunkopru\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,7 +29,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/vUjijuxpAse4YKflqUMDLmRzJEYvh8ORhiWbchNWYODJ9rLvVz/api": {}
+        "https://nuget.devexpress.com/MVNBP3oVrVFkycOUs4KVkyiJba7vkZxdtPhAq7jhHfglxV9OwK/api": {}
       },
       "frameworks": {
         "net7.0": {
@@ -62,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

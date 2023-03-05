@@ -1,0 +1,42 @@
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.exe
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.deps.json
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.runtimeconfig.json
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.pdb
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.csproj.AssemblyReference.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.AssemblyInfoInputs.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.AssemblyInfo.cs
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.csproj.CoreCompileInputs.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\refint\PropertyInjectionSample.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.pdb
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.genruntimeconfig.cache
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\ref\PropertyInjectionSample.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Unity.Abstractions.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Unity.Container.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.csproj.CopyComplete
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Autofac.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+E:\OneDrive - Anadolu Üniversitesi - AÖF\CSharp11NetCore7\Projeler\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.exe
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.deps.json
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.runtimeconfig.json
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\PropertyInjectionSample.pdb
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Autofac.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Unity.Abstractions.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\bin\Debug\net7.0\Unity.Container.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.csproj.AssemblyReference.cache
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.AssemblyInfoInputs.cache
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.AssemblyInfo.cs
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.csproj.CoreCompileInputs.cache
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.csproj.CopyComplete
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\refint\PropertyInjectionSample.dll
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.pdb
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\PropertyInjectionSample.genruntimeconfig.cache
+D:\GitHub\C-11EfCore7\AllConsoleProjects\PropertyInjectionSample\obj\Debug\net7.0\ref\PropertyInjectionSample.dll
