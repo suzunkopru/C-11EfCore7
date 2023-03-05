@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TzatSMQfq9GTjTtTGs2yWALDixo/pMyMe5fqyP+7Gmt//Lu9LD9DLX+xgiNt2PSoXlrTCP5WC1riQA370EYRvQ==",
+  "dgSpecHash": "ZIdgPvNm/j+witzgcaOsDQiM6REvHm80mo5pqg0iUiGtGYKlpNTMpS/h8LF2A7hVW1/IQrSewVI8Yg4YgWn+rg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\C-11EfCore7\\AllConsoleProjects\\PropertyInjectionSample\\PropertyInjectionSample.csproj",
+  "projectFilePath": "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\PropertyInjectionSample\\PropertyInjectionSample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\suzunkopru\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
     "C:\\Users\\suzunkopru\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

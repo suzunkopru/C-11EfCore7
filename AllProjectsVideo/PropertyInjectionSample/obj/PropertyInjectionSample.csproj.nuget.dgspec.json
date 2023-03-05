@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\C-11EfCore7\\AllConsoleProjects\\PropertyInjectionSample\\PropertyInjectionSample.csproj": {}
+    "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\PropertyInjectionSample\\PropertyInjectionSample.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\C-11EfCore7\\AllConsoleProjects\\PropertyInjectionSample\\PropertyInjectionSample.csproj": {
+    "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\PropertyInjectionSample\\PropertyInjectionSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\C-11EfCore7\\AllConsoleProjects\\PropertyInjectionSample\\PropertyInjectionSample.csproj",
+        "projectUniqueName": "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\PropertyInjectionSample\\PropertyInjectionSample.csproj",
         "projectName": "PropertyInjectionSample",
-        "projectPath": "D:\\GitHub\\C-11EfCore7\\AllConsoleProjects\\PropertyInjectionSample\\PropertyInjectionSample.csproj",
+        "projectPath": "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\PropertyInjectionSample\\PropertyInjectionSample.csproj",
         "packagesPath": "C:\\Users\\suzunkopru\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\C-11EfCore7\\AllConsoleProjects\\PropertyInjectionSample\\obj\\",
+        "outputPath": "D:\\GitHub\\C-11EfCore7\\AllProjectsVideo\\PropertyInjectionSample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suzunkopru\\AppData\\Roaming\\NuGet\\NuGet.Config",
