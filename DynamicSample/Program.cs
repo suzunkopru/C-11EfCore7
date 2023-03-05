@@ -15,7 +15,7 @@ WriteLine($"{AracYasTip(motor, out tipiNE, 2014)} yaşında {tipiNE}");
 ReadLine();
 public enum Vites
 {
-    Manuel, Otomatik
+    Manuel,  Otomatik
 }
 public class Araba : IArac
 {
